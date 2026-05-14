@@ -1,7 +1,7 @@
 ---
 title: 'Upgrading all packages in a React Native Expo project'
 date: '2021-03-15 01:15'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","javascript","linux","git"]
 thumbnail: '/images/thumbnails/react.jpg'

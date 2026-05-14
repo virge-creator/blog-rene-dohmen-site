@@ -1,7 +1,7 @@
 ---
 title: 'Reisverslag Spanje 2010, Costa brava'
 date: '2010-06-15 22:04'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","javascript"]
 thumbnail: '/images/thumbnails/about-bg.jpg'

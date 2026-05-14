@@ -1,7 +1,7 @@
 ---
 title: 'Enable syntax coloring on Jenkins with vim'
 date: '2018-01-24 13:20'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","git","devops"]
 thumbnail: '/images/thumbnails/vim.png'

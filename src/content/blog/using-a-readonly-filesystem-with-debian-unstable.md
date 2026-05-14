@@ -1,7 +1,7 @@
 ---
 title: 'Using a readonly filesystem with debian unstable'
 date: '2011-03-10 00:14'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux"]
 thumbnail: '/images/thumbnails/linux.png'

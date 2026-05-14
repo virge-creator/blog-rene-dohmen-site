@@ -1,7 +1,7 @@
 ---
 title: 'Installing childsplay on MAC OSX 10.5 or 10.6 inside Xwindows'
 date: '2010-09-22 21:28'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python"]
 thumbnail: '/images/thumbnails/apple.jpg'

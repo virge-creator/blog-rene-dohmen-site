@@ -1,7 +1,7 @@
 ---
 title: 'Zip only certain files and keep the directory structure intact'
 date: '2013-01-10 20:55'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz"]
 thumbnail: '/images/thumbnails/linux.png'

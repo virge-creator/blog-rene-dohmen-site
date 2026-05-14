@@ -1,7 +1,7 @@
 ---
 title: 'Install Qt and compile Capybara webkit on Linux and mac OSX'
 date: '2014-05-09 23:03'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux"]
 thumbnail: '/images/thumbnails/linux.png'

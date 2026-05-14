@@ -1,7 +1,7 @@
 ---
 title: 'Nieuw blog'
 date: '2011-02-11 23:13'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz"]
 thumbnail: '/images/thumbnails/linux.png'

@@ -1,7 +1,7 @@
 ---
 title: 'Ruby on Rails DB cheat sheet'
 date: '2014-06-25 19:45'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz"]
 thumbnail: '/images/thumbnails/ruby.jpg'

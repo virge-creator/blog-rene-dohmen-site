@@ -1,7 +1,7 @@
 ---
 title: 'N7 netwerk tuner bekijken via Boxee'
 date: '2011-07-07 17:31'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","git"]
 thumbnail: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800'

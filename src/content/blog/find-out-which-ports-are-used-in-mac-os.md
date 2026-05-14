@@ -1,7 +1,7 @@
 ---
 title: 'Find out which ports are used in Mac Os'
 date: '2020-09-29 16:26'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python","javascript","linux","docker"]
 thumbnail: '/images/thumbnails/apple.jpg'

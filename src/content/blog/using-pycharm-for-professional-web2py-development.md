@@ -1,7 +1,7 @@
 ---
 title: 'Using PyCharm for professional web2py development'
 date: '2013-11-06 20:56'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python","linux","git"]
 thumbnail: '/images/thumbnails/python.jpg'

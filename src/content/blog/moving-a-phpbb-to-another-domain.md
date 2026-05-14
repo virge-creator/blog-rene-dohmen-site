@@ -1,7 +1,7 @@
 ---
 title: 'Moving a phpBB to another domain'
 date: '2012-02-29 21:51'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","database","tutorial"]
 thumbnail: '/images/thumbnails/linux.png'

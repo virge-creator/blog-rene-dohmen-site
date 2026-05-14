@@ -1,7 +1,7 @@
 ---
 title: 'Some scripts to watch and record TV'
 date: '2011-08-18 01:04'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux"]
 thumbnail: '/images/thumbnails/stream.jpg'

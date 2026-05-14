@@ -1,7 +1,7 @@
 ---
 title: 'Shutdown computer as non root user'
 date: '2010-05-11 21:42'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux"]
 thumbnail: '/images/thumbnails/linux.png'

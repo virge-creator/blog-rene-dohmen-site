@@ -1,7 +1,7 @@
 ---
 title: 'Deploy FastAPI on Amazon Serverless'
 date: '2021-05-15 02:15'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python","javascript","linux","docker","git","database","tutorial"]
 thumbnail: '/images/thumbnails/fastapi.webp'

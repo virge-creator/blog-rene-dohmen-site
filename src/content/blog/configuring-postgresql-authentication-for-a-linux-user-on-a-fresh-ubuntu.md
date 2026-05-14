@@ -1,7 +1,7 @@
 ---
 title: 'Configuring postgresql authentication for a linux user on a fresh Ubuntu'
 date: '2012-12-06 18:04'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux","database","tutorial"]
 thumbnail: '/images/thumbnails/ubuntu.jpg'

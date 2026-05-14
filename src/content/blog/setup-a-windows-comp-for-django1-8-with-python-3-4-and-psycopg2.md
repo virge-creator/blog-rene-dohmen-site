@@ -1,7 +1,7 @@
 ---
 title: 'Setup a windows comp for Django1.8 with Python 3.4 and Psycopg2'
 date: '2015-07-09 07:59'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python","linux"]
 thumbnail: '/images/thumbnails/django.jpg'

@@ -1,7 +1,7 @@
 ---
 title: 'Building Fancy DMG Images on Mac OS X'
 date: '2012-04-01 02:17'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux","tutorial"]
 thumbnail: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800'

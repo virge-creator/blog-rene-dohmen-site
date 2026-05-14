@@ -1,7 +1,7 @@
 ---
 title: '5 Advantages of working agile'
 date: '2016-05-17 01:44'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python","git"]
 thumbnail: '/images/thumbnails/agile.png'

@@ -1,7 +1,7 @@
 ---
 title: 'Show hidden files on OSX'
 date: '2013-12-12 20:37'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux","tutorial"]
 thumbnail: '/images/thumbnails/apple.jpg'

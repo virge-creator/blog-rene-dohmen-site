@@ -1,7 +1,7 @@
 ---
 title: 'Installing OS X 10.7 in VmWare Fusion'
 date: '2012-01-02 20:26'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz"]
 thumbnail: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800'

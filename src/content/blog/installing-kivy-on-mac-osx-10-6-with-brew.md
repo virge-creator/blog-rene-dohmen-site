@@ -1,7 +1,7 @@
 ---
 title: 'Installing kivy on Mac OSX 10.6 with brew'
 date: '2013-08-28 00:19'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python","git"]
 thumbnail: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800'

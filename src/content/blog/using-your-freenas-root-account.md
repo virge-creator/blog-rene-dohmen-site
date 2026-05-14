@@ -1,7 +1,7 @@
 ---
 title: 'Using your FreeNAS root account'
 date: '2014-04-03 13:35'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","ssh"]
 thumbnail: '/images/thumbnails/linux.png'

@@ -1,7 +1,7 @@
 ---
 title: 'Passwordless login via ssh in just 2 commands!'
 date: '2013-11-16 20:00'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","ssh"]
 thumbnail: '/images/thumbnails/linux.png'

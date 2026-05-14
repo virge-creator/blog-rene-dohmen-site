@@ -1,7 +1,7 @@
 ---
 title: 'Clean up a Ubuntu server boot partition'
 date: '2015-11-13 21:47'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux"]
 thumbnail: '/images/thumbnails/ubuntu.jpg'

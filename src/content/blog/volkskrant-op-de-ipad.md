@@ -1,7 +1,7 @@
 ---
 title: 'Volkskrant OCR probleem opgelost'
 date: '2011-03-01 17:08'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz"]
 thumbnail: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800'

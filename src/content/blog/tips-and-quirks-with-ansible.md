@@ -1,7 +1,7 @@
 ---
 title: 'Tips and quirks with ansible'
 date: '2016-02-11 16:04'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","nginx","ansible"]
 thumbnail: '/images/thumbnails/ansible.png'

@@ -1,7 +1,7 @@
 ---
 title: 'New python based framework'
 date: '2011-09-13 21:51'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python","linux","database","tutorial","devops"]
 thumbnail: '/images/thumbnails/python.jpg'

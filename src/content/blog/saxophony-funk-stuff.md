@@ -1,7 +1,7 @@
 ---
 title: 'Saxophony funk stuff'
 date: '2012-11-25 20:11'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Music'
 tags: ["Music"]
 thumbnail: '/images/thumbnails/music.jpg'

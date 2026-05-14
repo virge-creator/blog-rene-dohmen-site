@@ -1,7 +1,7 @@
 ---
 title: 'Web2py resources'
 date: '2011-10-20 20:44'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","database"]
 thumbnail: '/images/thumbnails/python.jpg'

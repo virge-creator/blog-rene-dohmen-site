@@ -1,7 +1,7 @@
 ---
 title: 'Working with git submodules'
 date: '2023-10-15 18:55'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","git"]
 thumbnail: '/images/thumbnails/git.png'

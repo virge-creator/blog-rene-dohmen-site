@@ -1,7 +1,7 @@
 ---
 title: 'Mount a .dmg from Terminal in Mac OS X'
 date: '2012-04-14 18:25'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz"]
 thumbnail: '/images/thumbnails/apple.jpg'

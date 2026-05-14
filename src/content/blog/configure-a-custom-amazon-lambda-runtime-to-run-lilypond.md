@@ -1,7 +1,7 @@
 ---
 title: 'Configure a custom Amazon Lambda runtime to run lilypond'
 date: '2019-07-15 16:48'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","javascript","git","music","devops"]
 thumbnail: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800'

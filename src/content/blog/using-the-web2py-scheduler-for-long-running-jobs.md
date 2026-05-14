@@ -1,7 +1,7 @@
 ---
 title: 'Using the web2py scheduler for long running jobs'
 date: '2012-12-08 02:58'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python","git","database"]
 thumbnail: '/images/thumbnails/python.jpg'

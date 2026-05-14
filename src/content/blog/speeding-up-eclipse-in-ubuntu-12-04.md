@@ -1,7 +1,7 @@
 ---
 title: 'Speeding up Eclipse in Ubuntu 12.04'
 date: '2012-12-07 00:49'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux"]
 thumbnail: '/images/thumbnails/ubuntu.jpg'

@@ -1,7 +1,7 @@
 ---
 title: 'Trust a self signed SSL certificate in Chrome'
 date: '2014-08-29 22:51'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","tutorial"]
 thumbnail: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800'

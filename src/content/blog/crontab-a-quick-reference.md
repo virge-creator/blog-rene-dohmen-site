@@ -1,7 +1,7 @@
 ---
 title: 'Crontab: a Quick reference'
 date: '2010-04-15 21:48'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz"]
 thumbnail: '/images/thumbnails/linux.png'

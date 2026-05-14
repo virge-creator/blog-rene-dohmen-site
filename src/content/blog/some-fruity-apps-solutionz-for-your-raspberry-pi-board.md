@@ -1,7 +1,7 @@
 ---
 title: 'Some fruity apps & solutionz for your raspberry pi board'
 date: '2013-01-18 21:04'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux","git","nginx","ansible","music"]
 thumbnail: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800'

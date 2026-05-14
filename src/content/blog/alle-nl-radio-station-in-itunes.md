@@ -1,7 +1,7 @@
 ---
 title: 'Alle NL radio station in iTunes'
 date: '2011-04-07 11:24'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz"]
 thumbnail: '/images/thumbnails/about-bg.jpg'

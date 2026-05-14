@@ -1,7 +1,7 @@
 ---
 title: 'SSH 1 and SSH2: Login without passwords'
 date: '2010-01-14 21:41'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","ssh","tutorial"]
 thumbnail: '/images/thumbnails/linux.png'

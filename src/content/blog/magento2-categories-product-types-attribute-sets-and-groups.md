@@ -1,7 +1,7 @@
 ---
 title: 'Magento2 Categories, product types, attribute sets and groups'
 date: '2017-06-16 23:28'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz"]
 thumbnail: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800'

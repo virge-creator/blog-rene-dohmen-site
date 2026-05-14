@@ -1,7 +1,7 @@
 ---
 title: 'Installing Odoo/OpenERP 8 on Ubuntu 12.04 LTS'
 date: '2014-09-14 00:46'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python","javascript","linux","database"]
 thumbnail: '/images/thumbnails/ubuntu.jpg'

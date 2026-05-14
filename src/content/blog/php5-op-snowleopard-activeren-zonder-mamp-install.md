@@ -1,7 +1,7 @@
 ---
 title: 'PHP5 op snowleopard activeren, zonder MAMP install'
 date: '2010-06-24 22:00'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","javascript"]
 thumbnail: '/images/thumbnails/apple.jpg'

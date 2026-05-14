@@ -1,7 +1,7 @@
 ---
 title: 'Using multiple Heroku accounts'
 date: '2014-09-25 18:27'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","git"]
 thumbnail: '/images/thumbnails/linux.png'

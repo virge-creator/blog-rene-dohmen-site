@@ -1,7 +1,7 @@
 ---
 title: 'Running python on mac m1 natively'
 date: '2021-11-12 15:15'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python","linux","git","database"]
 thumbnail: '/images/thumbnails/python.jpg'

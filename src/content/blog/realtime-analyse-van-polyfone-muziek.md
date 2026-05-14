@@ -1,7 +1,7 @@
 ---
 title: 'Realtime analyse van polyfone muziek'
 date: '2011-02-12 11:07'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux","git","music","tutorial"]
 thumbnail: '/images/thumbnails/music.jpg'

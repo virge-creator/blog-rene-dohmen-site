@@ -1,7 +1,7 @@
 ---
 title: 'T-mobile doorschakel trucs'
 date: '2012-01-04 12:07'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz"]
 thumbnail: '/images/thumbnails/stream.jpg'

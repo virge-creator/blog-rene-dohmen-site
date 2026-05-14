@@ -1,7 +1,7 @@
 ---
 title: 'Convert a whole bunch of video files to .ogv theora format in one command'
 date: '2013-09-14 03:39'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux","music"]
 thumbnail: '/images/thumbnails/video.jpg'

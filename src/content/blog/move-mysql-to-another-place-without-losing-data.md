@@ -1,7 +1,7 @@
 ---
 title: 'Move mysql to another place without losing data'
 date: '2011-03-15 15:50'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux","database"]
 thumbnail: '/images/thumbnails/linux.png'

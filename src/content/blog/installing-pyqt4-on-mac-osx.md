@@ -1,7 +1,7 @@
 ---
 title: 'installing PyQT4 on Mac OSX'
 date: '2011-11-05 13:31'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python","git","devops"]
 thumbnail: '/images/thumbnails/apple.jpg'

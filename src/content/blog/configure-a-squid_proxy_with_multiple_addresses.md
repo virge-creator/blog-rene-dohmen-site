@@ -1,7 +1,7 @@
 ---
 title: 'Configure a Squid proxy to use multiple from addresses'
 date: '2019-05-21 03:44'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python","javascript","linux","ansible"]
 thumbnail: '/images/thumbnails/linux.png'

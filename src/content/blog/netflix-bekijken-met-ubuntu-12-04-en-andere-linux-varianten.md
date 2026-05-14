@@ -1,7 +1,7 @@
 ---
 title: 'Netflix bekijken met Ubuntu 12.04 en andere Linux varianten'
 date: '2013-10-15 23:36'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux"]
 thumbnail: '/images/thumbnails/ubuntu.jpg'

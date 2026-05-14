@@ -1,7 +1,7 @@
 ---
 title: 'Migrating a wordpress blog with content to a pelican based static html site'
 date: '2018-12-13 03:11'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python","linux","docker","git","tutorial"]
 thumbnail: '/images/thumbnails/python.jpg'

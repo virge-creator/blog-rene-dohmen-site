@@ -1,7 +1,7 @@
 ---
 title: 'Studio Brussel'
 date: '2010-07-11 21:45'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Music'
 tags: ["Music"]
 thumbnail: '/images/thumbnails/studio-brussel.jpg'

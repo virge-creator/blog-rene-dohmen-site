@@ -1,7 +1,7 @@
 ---
 title: 'Compiling signed mac cli binaries'
 date: '2021-05-15 02:15'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","git"]
 thumbnail: '/images/thumbnails/apple.jpg'

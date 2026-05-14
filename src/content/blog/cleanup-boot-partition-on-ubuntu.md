@@ -1,7 +1,7 @@
 ---
 title: 'Cleanup boot partition on Ubuntu'
 date: '2016-09-12 20:58'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python","linux","git"]
 thumbnail: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800'

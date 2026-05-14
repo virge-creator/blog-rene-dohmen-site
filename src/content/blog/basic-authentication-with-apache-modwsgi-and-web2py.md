@@ -1,7 +1,7 @@
 ---
 title: 'Basic authentication with apache modwsgi and web2py'
 date: '2012-08-06 00:30'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz"]
 thumbnail: '/images/thumbnails/linux.png'

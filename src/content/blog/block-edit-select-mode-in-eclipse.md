@@ -1,7 +1,7 @@
 ---
 title: 'Block edit / select mode in Eclipse'
 date: '2011-08-19 13:53'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz"]
 thumbnail: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800'

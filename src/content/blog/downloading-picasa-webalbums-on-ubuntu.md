@@ -1,7 +1,7 @@
 ---
 title: 'Downloading picasa webalbums on Ubuntu'
 date: '2012-02-16 15:00'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux"]
 thumbnail: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800'

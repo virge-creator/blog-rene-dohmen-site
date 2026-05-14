@@ -1,7 +1,7 @@
 ---
 title: 'Install python PIL or Pillow on Ubuntu 14.04 64 bit'
 date: '2015-05-19 09:37'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python","linux"]
 thumbnail: '/images/thumbnails/python.jpg'

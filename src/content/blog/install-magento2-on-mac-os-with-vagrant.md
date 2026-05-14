@@ -1,7 +1,7 @@
 ---
 title: 'Install Magento2 on Mac OS with vagrant'
 date: '2017-07-15 12:55'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","javascript","linux","docker","git","nginx","ansible","database"]
 thumbnail: '/images/thumbnails/magento.jpg'

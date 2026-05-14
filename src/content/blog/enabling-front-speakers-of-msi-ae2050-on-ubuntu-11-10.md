@@ -1,7 +1,7 @@
 ---
 title: 'Enabling front speakers of MSI AE2050 on Ubuntu 11.10'
 date: '2011-11-11 20:11'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux","music"]
 thumbnail: '/images/thumbnails/ubuntu.jpg'

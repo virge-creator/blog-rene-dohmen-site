@@ -1,7 +1,7 @@
 ---
 title: 'Snel een nested git repository opschonen'
 date: '2011-06-23 21:15'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","git"]
 thumbnail: '/images/thumbnails/linux.png'

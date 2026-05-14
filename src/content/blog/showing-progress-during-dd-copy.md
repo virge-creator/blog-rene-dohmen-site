@@ -1,7 +1,7 @@
 ---
 title: 'Showing progress during dd copy'
 date: '2010-10-11 21:31'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux"]
 thumbnail: '/images/thumbnails/linux.png'

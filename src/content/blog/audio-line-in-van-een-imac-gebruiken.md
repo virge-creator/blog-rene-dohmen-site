@@ -1,7 +1,7 @@
 ---
 title: 'Audio line in van een imac gebruiken'
 date: '2011-08-17 23:19'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","music"]
 thumbnail: '/images/thumbnails/about-bg.jpg'

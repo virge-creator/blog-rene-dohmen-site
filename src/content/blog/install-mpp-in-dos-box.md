@@ -1,7 +1,7 @@
 ---
 title: 'Install Music Printer Plus 4.1 in DosBox'
 date: '2015-10-12 11:27'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","music"]
 thumbnail: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800'

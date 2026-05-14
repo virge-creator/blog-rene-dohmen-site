@@ -1,7 +1,7 @@
 ---
 title: 'Using anaconda'
 date: '2021-03-09 01:44'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python","linux"]
 thumbnail: '/images/thumbnails/python.jpg'

@@ -1,7 +1,7 @@
 ---
 title: 'Determine sqlite table size on disk'
 date: '2014-05-28 19:58'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","javascript","linux","database"]
 thumbnail: '/images/thumbnails/linux.png'

@@ -1,7 +1,7 @@
 ---
 title: 'Install python2.7 and Django + postgres on windows'
 date: '2015-09-19 12:20'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python","database"]
 thumbnail: '/images/thumbnails/python.jpg'

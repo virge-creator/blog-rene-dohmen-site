@@ -1,7 +1,7 @@
 ---
 title: 'Best practices for hardening a Cardano mining pool'
 date: '2021-06-18 18:55'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","javascript","linux","git","ssh","ansible","motorcycle","music"]
 thumbnail: '/images/thumbnails/haskell.png'

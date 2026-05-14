@@ -1,7 +1,7 @@
 ---
 title: 'Gmail migratie: van MS exchange naar Gmail'
 date: '2011-07-07 18:55'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz"]
 thumbnail: '/images/thumbnails/stream.jpg'

@@ -1,7 +1,7 @@
 ---
 title: 'Cool stuff with Pyglet'
 date: '2010-09-27 21:30'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python","linux"]
 thumbnail: '/images/thumbnails/python.jpg'

@@ -1,7 +1,7 @@
 ---
 title: 'Install Ruby on Rails 4.0 on Mac OSX with home-brew'
 date: '2014-04-05 02:05'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz"]
 thumbnail: '/images/thumbnails/ruby.jpg'

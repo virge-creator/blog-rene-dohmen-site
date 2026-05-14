@@ -1,7 +1,7 @@
 ---
 title: 'Downloading OpenStack images with Glance'
 date: '2014-01-10 23:58'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","docker"]
 thumbnail: '/images/thumbnails/linux.png'

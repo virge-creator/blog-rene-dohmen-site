@@ -1,7 +1,7 @@
 ---
 title: 'Howto setup multicast streaming with the Anysee N7 network tuner'
 date: '2013-05-23 10:00'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz"]
 thumbnail: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800'

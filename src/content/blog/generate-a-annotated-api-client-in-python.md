@@ -1,7 +1,7 @@
 ---
 title: 'Generate a type annotated REST api client in python'
 date: '2021-05-07 18:55'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python","javascript","git"]
 thumbnail: '/images/thumbnails/python.jpg'

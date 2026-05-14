@@ -1,7 +1,7 @@
 ---
 title: 'De volkskrant, moet nog veel leren op service gebied'
 date: '2011-04-09 13:02'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Life'
 tags: ["Life","javascript"]
 thumbnail: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800'

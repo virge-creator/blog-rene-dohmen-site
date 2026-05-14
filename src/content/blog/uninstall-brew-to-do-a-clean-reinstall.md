@@ -1,7 +1,7 @@
 ---
 title: 'Uninstall brew, to do a clean reinstall'
 date: '2012-04-04 16:26'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","git"]
 thumbnail: '/images/thumbnails/apple.jpg'

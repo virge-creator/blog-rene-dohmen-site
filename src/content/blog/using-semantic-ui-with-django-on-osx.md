@@ -1,7 +1,7 @@
 ---
 title: 'Using Semantic UI with Django on OSX'
 date: '2015-05-21 11:07'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python","javascript","git"]
 thumbnail: '/images/thumbnails/apple.jpg'

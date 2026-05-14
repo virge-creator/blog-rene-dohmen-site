@@ -1,7 +1,7 @@
 ---
 title: 'Rebuilding the nvidia kernel module for Ubuntu'
 date: '2014-09-29 12:02'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux"]
 thumbnail: '/images/thumbnails/ubuntu.jpg'

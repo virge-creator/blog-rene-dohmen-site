@@ -1,7 +1,7 @@
 ---
 title: 'Spam van Zzap-online.eu'
 date: '2013-10-28 20:17'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","javascript"]
 thumbnail: '/images/thumbnails/spam.jpg'

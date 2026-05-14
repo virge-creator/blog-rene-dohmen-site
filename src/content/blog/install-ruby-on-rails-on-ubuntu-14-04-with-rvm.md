@@ -1,7 +1,7 @@
 ---
 title: 'Install Ruby on Rails on Ubuntu 14.04 with RVM'
 date: '2014-03-28 14:52'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python","javascript","linux"]
 thumbnail: '/images/thumbnails/ruby.jpg'

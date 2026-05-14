@@ -1,7 +1,7 @@
 ---
 title: 'How do I verify how many CPU\''''s I have in the Terminal'
 date: '2010-04-11 22:02'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux"]
 thumbnail: '/images/thumbnails/linux.png'

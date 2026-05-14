@@ -1,7 +1,7 @@
 ---
 title: 'Suzuki VX800 User manuals'
 date: '2013-05-26 14:23'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Life'
 tags: ["Life","motorcycle"]
 thumbnail: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800'

@@ -1,7 +1,7 @@
 ---
 title: 'Hacking gnome: screwed up? A quick gnome restore guide'
 date: '2010-02-26 21:37'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","tutorial"]
 thumbnail: '/images/thumbnails/linux.png'

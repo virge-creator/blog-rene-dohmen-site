@@ -1,7 +1,7 @@
 ---
 title: 'Roken? men neme de supersmoker'
 date: '2011-03-25 22:39'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Life'
 tags: ["Life"]
 thumbnail: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800'

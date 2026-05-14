@@ -1,7 +1,7 @@
 ---
 title: 'Do a complete backup with rsync of a linux server'
 date: '2014-02-05 22:36'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux"]
 thumbnail: '/images/thumbnails/linux.png'

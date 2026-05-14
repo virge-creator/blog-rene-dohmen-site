@@ -1,7 +1,7 @@
 ---
 title: 'Boxee with Ubuntu 11.04'
 date: '2011-07-08 22:46'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux"]
 thumbnail: '/images/thumbnails/ubuntu.jpg'

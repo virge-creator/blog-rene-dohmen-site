@@ -1,7 +1,7 @@
 ---
 title: 'Review klacht.nl en Sony Playstation network'
 date: '2017-03-18 12:03'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","javascript"]
 thumbnail: '/images/thumbnails/video.jpg'

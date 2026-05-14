@@ -1,7 +1,7 @@
 ---
 title: 'Add a Comodo SSL certificate to NGINX'
 date: '2015-01-05 22:17'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","javascript","git","nginx"]
 thumbnail: '/images/thumbnails/linux.png'

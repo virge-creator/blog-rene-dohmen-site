@@ -1,7 +1,7 @@
 ---
 title: 'Reverse SSH tunnel'
 date: '2010-03-09 21:46'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux","ssh"]
 thumbnail: '/images/thumbnails/linux.png'

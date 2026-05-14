@@ -1,7 +1,7 @@
 ---
 title: 'Howto make fullscreen webpage screenshots with chrome'
 date: '2021-02-27 01:15'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux"]
 thumbnail: '/images/thumbnails/developers-console-screenshot.png'

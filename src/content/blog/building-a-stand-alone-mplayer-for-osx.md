@@ -1,7 +1,7 @@
 ---
 title: 'Building a stand alone Mplayer for OSX'
 date: '2012-05-20 00:50'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux"]
 thumbnail: '/images/thumbnails/video.jpg'

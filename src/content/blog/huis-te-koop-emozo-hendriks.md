@@ -1,7 +1,7 @@
 ---
 title: 'Huis te koop nu ook op emozo'
 date: '2011-11-08 14:37'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz, Life'
 tags: ["Computerz, Life"]
 thumbnail: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800'

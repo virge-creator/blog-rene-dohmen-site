@@ -1,7 +1,7 @@
 ---
 title: 'Running Unity3D webplayer on your linux box'
 date: '2014-03-11 00:35'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux"]
 thumbnail: '/images/thumbnails/linux.png'

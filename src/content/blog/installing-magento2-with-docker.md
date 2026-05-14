@@ -1,7 +1,7 @@
 ---
 title: 'Installing Magento2 with docker'
 date: '2017-10-03 06:44'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","docker","git","ansible","tutorial","devops"]
 thumbnail: '/images/thumbnails/magento.jpg'

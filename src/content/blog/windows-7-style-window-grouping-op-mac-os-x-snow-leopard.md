@@ -1,7 +1,7 @@
 ---
 title: 'Windows 7 style window grouping op MAC OS X snow leopard'
 date: '2010-08-03 21:56'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux"]
 thumbnail: '/images/thumbnails/apple.jpg'

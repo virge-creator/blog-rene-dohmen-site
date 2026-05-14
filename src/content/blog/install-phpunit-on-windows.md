@@ -1,7 +1,7 @@
 ---
 title: 'Install phpunit on windows'
 date: '2015-02-23 13:53'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz"]
 thumbnail: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800'

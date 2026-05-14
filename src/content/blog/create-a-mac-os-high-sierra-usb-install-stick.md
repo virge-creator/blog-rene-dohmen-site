@@ -1,7 +1,7 @@
 ---
 title: 'Create a Mac OS High Sierra usb install stick'
 date: '2018-08-20 06:37'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz"]
 thumbnail: '/images/thumbnails/apple.jpg'

@@ -1,7 +1,7 @@
 ---
 title: 'Clone your OSX to an bootable external drive'
 date: '2013-10-19 11:48'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","tutorial"]
 thumbnail: '/images/thumbnails/apple.jpg'

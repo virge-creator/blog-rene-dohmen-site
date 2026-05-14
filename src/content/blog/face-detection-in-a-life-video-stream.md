@@ -1,7 +1,7 @@
 ---
 title: 'Face detection in a life video stream'
 date: '2010-08-13 21:52'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python","linux","tutorial"]
 thumbnail: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800'

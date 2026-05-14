@@ -1,7 +1,7 @@
 ---
 title: 'Stop/Start or Restart Symform linux service'
 date: '2014-12-19 14:04'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","javascript","linux","ssh","tutorial"]
 thumbnail: '/images/thumbnails/linux.png'

@@ -1,7 +1,7 @@
 ---
 title: 'Quickly deploy a AWS EC2 instance with python and Ubuntu 18.04'
 date: '2019-05-25 02:15'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python","linux","ssh","ansible"]
 thumbnail: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800'

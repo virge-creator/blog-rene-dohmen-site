@@ -1,7 +1,7 @@
 ---
 title: 'Installing pygame 1.9 / seniorplay on snow leopard, without X'
 date: '2010-06-23 21:59'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python","linux"]
 thumbnail: '/images/thumbnails/python.jpg'

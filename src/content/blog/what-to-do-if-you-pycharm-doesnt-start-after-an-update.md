@@ -1,7 +1,7 @@
 ---
 title: 'What to do if you PyCharm doesn’t start after an update'
 date: '2018-08-24 00:49'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","ssh"]
 thumbnail: '/images/thumbnails/python.jpg'

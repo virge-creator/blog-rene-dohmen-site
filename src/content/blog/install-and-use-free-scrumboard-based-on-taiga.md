@@ -1,7 +1,7 @@
 ---
 title: 'Install Taigo, scrumboard en project planning tools on an Ubuntu box'
 date: '2015-10-03 11:09'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python","linux","git","database"]
 thumbnail: '/images/thumbnails/agile.png'

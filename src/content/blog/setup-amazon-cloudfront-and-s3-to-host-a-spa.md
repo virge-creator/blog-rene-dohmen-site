@@ -1,7 +1,7 @@
 ---
 title: 'Setup Amazon Cloudfront and S3 to host a SPA'
 date: '2020-12-09 01:15'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","javascript","tutorial","devops"]
 thumbnail: '/images/thumbnails/serverless.jpg'

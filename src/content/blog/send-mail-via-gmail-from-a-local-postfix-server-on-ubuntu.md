@@ -1,7 +1,7 @@
 ---
 title: 'Send mail via Gmail from a local postfix server on Ubuntu'
 date: '2014-12-16 23:22'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux","tutorial"]
 thumbnail: '/images/thumbnails/music.jpg'

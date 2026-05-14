@@ -1,7 +1,7 @@
 ---
 title: 'Fully automated touch screen testing lego mindstorms robot v1'
 date: '2013-08-29 17:41'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz"]
 thumbnail: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800'

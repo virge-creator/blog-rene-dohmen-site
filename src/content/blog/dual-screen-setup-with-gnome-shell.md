@@ -1,7 +1,7 @@
 ---
 title: 'Dual screen setup with gnome shell'
 date: '2011-06-29 13:59'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz"]
 thumbnail: '/images/thumbnails/vim.png'

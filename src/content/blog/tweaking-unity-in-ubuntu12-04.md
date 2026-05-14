@@ -1,7 +1,7 @@
 ---
 title: 'Tweaking Unity in Ubuntu12.04'
 date: '2012-12-04 23:05'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux"]
 thumbnail: '/images/thumbnails/ubuntu.jpg'

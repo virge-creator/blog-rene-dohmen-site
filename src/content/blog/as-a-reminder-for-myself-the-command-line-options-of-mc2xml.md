@@ -1,7 +1,7 @@
 ---
 title: 'As a reminder for myself, the command line options of mc2xml'
 date: '2012-01-28 19:54'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux"]
 thumbnail: '/images/thumbnails/linux.png'

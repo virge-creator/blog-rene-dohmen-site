@@ -1,7 +1,7 @@
 ---
 title: 'Disable Gnome-Panel on Ubuntu Karmic Koala'
 date: '2010-02-25 21:35'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux"]
 thumbnail: '/images/thumbnails/linux.png'

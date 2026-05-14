@@ -1,7 +1,7 @@
 ---
 title: 'Rsync examples'
 date: '2011-11-02 19:52'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux","ssh"]
 thumbnail: '/images/thumbnails/linux.png'

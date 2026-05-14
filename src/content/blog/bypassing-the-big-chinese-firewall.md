@@ -1,7 +1,7 @@
 ---
 title: 'Bypassing the big Chinese firewall'
 date: '2014-01-10 21:52'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux","ssh"]
 thumbnail: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800'

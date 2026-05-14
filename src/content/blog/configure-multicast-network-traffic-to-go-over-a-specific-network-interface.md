@@ -1,7 +1,7 @@
 ---
 title: 'Configure multicast network traffic to go over a specific network interface on linux'
 date: '2013-08-24 23:47'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux","tutorial"]
 thumbnail: '/images/thumbnails/linux.png'

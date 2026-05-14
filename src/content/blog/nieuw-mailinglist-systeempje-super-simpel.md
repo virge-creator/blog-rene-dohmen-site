@@ -1,7 +1,7 @@
 ---
 title: 'Nieuw mailinglist systeempje, super simpel'
 date: '2010-04-21 10:50'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz"]
 thumbnail: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800'

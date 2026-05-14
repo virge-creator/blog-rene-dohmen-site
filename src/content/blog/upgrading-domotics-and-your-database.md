@@ -1,7 +1,7 @@
 ---
 title: 'Upgrading Domotics and your database'
 date: '2020-08-22 16:26'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux","git","database"]
 thumbnail: '/images/thumbnails/domoticz.jpg'

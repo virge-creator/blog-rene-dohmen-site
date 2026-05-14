@@ -1,7 +1,7 @@
 ---
 title: 'Rode kool op grootmoeders wijze'
 date: '2014-04-10 22:06'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Life'
 tags: ["Life"]
 thumbnail: '/images/thumbnails/about-bg.jpg'

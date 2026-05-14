@@ -1,7 +1,7 @@
 ---
 title: 'Why json is better for easy data exchange'
 date: '2013-04-02 05:15'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","javascript"]
 thumbnail: '/images/thumbnails/webdesign.png'

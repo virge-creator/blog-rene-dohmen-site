@@ -1,7 +1,7 @@
 ---
 title: 'Fixed: X won\''''t start after update to Ubuntu 12.04.3'
 date: '2013-08-24 19:07'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux","tutorial"]
 thumbnail: '/images/thumbnails/linux.png'

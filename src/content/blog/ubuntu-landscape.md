@@ -1,7 +1,7 @@
 ---
 title: 'Ubuntu landscape??'
 date: '2012-05-05 19:50'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux","git","nginx","database","music"]
 thumbnail: '/images/thumbnails/ubuntu.jpg'

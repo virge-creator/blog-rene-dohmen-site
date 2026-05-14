@@ -1,7 +1,7 @@
 ---
 title: 'Install pygame on Mac OSX via homebrew'
 date: '2012-04-14 18:49'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python","tutorial"]
 thumbnail: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800'

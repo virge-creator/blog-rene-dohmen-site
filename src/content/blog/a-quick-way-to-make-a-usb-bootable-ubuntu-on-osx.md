@@ -1,7 +1,7 @@
 ---
 title: 'A quick way to make a USB bootable Ubuntu on OSX.'
 date: '2012-11-16 18:42'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","javascript","linux"]
 thumbnail: '/images/thumbnails/ubuntu.jpg'

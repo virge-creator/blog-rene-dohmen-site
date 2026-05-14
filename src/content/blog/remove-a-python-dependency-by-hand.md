@@ -1,7 +1,7 @@
 ---
 title: 'Remove a python dependency by hand'
 date: '2013-05-29 17:47'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python"]
 thumbnail: '/images/thumbnails/python.jpg'

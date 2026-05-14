@@ -1,7 +1,7 @@
 ---
 title: 'Installing a self-updating Domoticz with Homekit support'
 date: '2019-03-29 15:32'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","javascript","linux","docker","git","tutorial"]
 thumbnail: '/images/thumbnails/domoticz.jpg'

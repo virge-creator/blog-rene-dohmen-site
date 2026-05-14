@@ -1,7 +1,7 @@
 ---
 title: 'Installing your web2py Stack on the Heroku cloud in 4 simple steps'
 date: '2013-01-05 22:26'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux","git"]
 thumbnail: '/images/thumbnails/python.jpg'

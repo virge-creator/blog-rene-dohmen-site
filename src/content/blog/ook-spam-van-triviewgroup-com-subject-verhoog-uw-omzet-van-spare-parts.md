@@ -1,7 +1,7 @@
 ---
 title: 'Ook spam van triviewgroup.com? Subject: Verhoog uw omzet van spare parts'
 date: '2013-01-17 02:56'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","javascript"]
 thumbnail: '/images/thumbnails/spam.jpg'

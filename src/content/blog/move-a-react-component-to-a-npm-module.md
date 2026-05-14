@@ -1,7 +1,7 @@
 ---
 title: 'Move a React component to a npm module'
 date: '2021-03-20 01:15'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","javascript","git","tutorial"]
 thumbnail: '/images/thumbnails/react.jpg'

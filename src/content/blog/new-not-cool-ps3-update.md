@@ -1,7 +1,7 @@
 ---
 title: 'New (not cool) PS3 update'
 date: '2010-04-21 21:49'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","javascript"]
 thumbnail: '/images/thumbnails/video.jpg'

@@ -1,7 +1,7 @@
 ---
 title: 'Install virtualenv on OSX'
 date: '2015-06-02 08:14'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python","git"]
 thumbnail: '/images/thumbnails/ruby.jpg'

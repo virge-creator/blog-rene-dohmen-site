@@ -1,7 +1,7 @@
 ---
 title: 'Run an expo webserver with port forwarding'
 date: '2020-12-12 12:12'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","javascript","linux","docker","nginx"]
 thumbnail: '/images/thumbnails/react-native.png'

@@ -1,7 +1,7 @@
 ---
 title: 'Debian : howto use pinning'
 date: '2010-12-11 21:19'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux"]
 thumbnail: '/images/thumbnails/linux.png'

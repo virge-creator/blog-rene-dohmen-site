@@ -1,7 +1,7 @@
 ---
 title: 'Installing AIR on Ubuntu 11.10 and 12.04'
 date: '2012-10-06 01:11'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux"]
 thumbnail: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800'

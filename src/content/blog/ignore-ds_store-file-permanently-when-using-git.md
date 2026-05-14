@@ -1,7 +1,7 @@
 ---
 title: 'Ignore .DS_Store file permanently when using Git'
 date: '2012-06-21 22:45'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","git"]
 thumbnail: '/images/thumbnails/apple.jpg'

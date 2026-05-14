@@ -1,7 +1,7 @@
 ---
 title: 'Usplash modding'
 date: '2010-03-26 21:51'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux","tutorial"]
 thumbnail: '/images/thumbnails/linux.png'

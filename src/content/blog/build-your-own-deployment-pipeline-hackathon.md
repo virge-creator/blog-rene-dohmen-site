@@ -1,7 +1,7 @@
 ---
 title: 'Build your own deployment pipeline hackathon'
 date: '2018-03-10 17:05'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","javascript","linux","docker","git","ansible","devops"]
 thumbnail: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800'

@@ -1,7 +1,7 @@
 ---
 title: 'Lost MySQL root pass?'
 date: '2010-11-12 22:07'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux","database"]
 thumbnail: '/images/thumbnails/linux.png'

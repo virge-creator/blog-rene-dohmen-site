@@ -1,7 +1,7 @@
 ---
 title: 'Some handy ls and find tricks with dates'
 date: '2014-09-03 18:55'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz"]
 thumbnail: '/images/thumbnails/linux.png'

@@ -1,7 +1,7 @@
 ---
 title: 'Install Weasyprint on Ubuntu 12.04 64 bit'
 date: '2014-09-18 08:57'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python","linux"]
 thumbnail: '/images/thumbnails/python.jpg'

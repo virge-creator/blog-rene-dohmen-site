@@ -1,7 +1,7 @@
 ---
 title: 'Cloning Linux systems with CloneZilla'
 date: '2010-01-10 21:40'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux","tutorial"]
 thumbnail: '/images/thumbnails/linux.png'

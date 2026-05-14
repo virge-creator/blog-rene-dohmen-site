@@ -1,7 +1,7 @@
 ---
 title: 'Setup Django to use Graylog logging'
 date: '2018-01-19 15:46'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","python","javascript","linux","docker","devops"]
 thumbnail: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800'

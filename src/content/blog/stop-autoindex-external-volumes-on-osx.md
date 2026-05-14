@@ -1,7 +1,7 @@
 ---
 title: 'Stop OSX from automatically indexing external disks'
 date: '2013-12-12 17:05'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz"]
 thumbnail: '/images/thumbnails/apple.jpg'

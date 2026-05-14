@@ -1,7 +1,7 @@
 ---
 title: 'ImageMagick for batch processing images'
 date: '2011-06-14 19:53'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","docker"]
 thumbnail: '/images/thumbnails/linux.png'

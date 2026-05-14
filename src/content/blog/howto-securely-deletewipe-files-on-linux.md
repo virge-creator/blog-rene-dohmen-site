@@ -1,7 +1,7 @@
 ---
 title: 'howto securely delete/wipe files on linux'
 date: '2011-07-20 14:41'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux"]
 thumbnail: '/images/thumbnails/linux.png'

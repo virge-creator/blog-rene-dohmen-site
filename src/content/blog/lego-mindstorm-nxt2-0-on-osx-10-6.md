@@ -1,7 +1,7 @@
 ---
 title: 'Lego Mindstorm NXT2.0 on OSX 10.6'
 date: '2011-12-10 21:20'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz"]
 thumbnail: '/images/thumbnails/apple.jpg'

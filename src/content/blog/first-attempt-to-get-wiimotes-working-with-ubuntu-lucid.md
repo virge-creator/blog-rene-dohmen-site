@@ -1,7 +1,7 @@
 ---
 title: 'First attempt to get Wiimotes working with Ubuntu Lucid'
 date: '2010-08-23 21:27'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux"]
 thumbnail: '/images/thumbnails/ubuntu.jpg'

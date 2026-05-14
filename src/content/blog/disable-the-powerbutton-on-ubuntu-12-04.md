@@ -1,7 +1,7 @@
 ---
 title: 'Disable the powerbutton on Ubuntu 12.04'
 date: '2013-08-16 21:23'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux"]
 thumbnail: '/images/thumbnails/ubuntu.jpg'

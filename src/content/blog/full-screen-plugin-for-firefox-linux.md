@@ -1,7 +1,7 @@
 ---
 title: 'Full screen plugin for firefox, linux'
 date: '2010-02-25 21:38'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux"]
 thumbnail: '/images/thumbnails/linux.png'

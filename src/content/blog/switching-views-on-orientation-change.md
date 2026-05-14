@@ -1,7 +1,7 @@
 ---
 title: 'Switching UIViews on Orientation change with an animation'
 date: '2011-02-19 17:48'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz"]
 thumbnail: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800'

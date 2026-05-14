@@ -1,7 +1,7 @@
 ---
 title: 'Spotify voor linux !'
 date: '2011-11-01 23:48'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz, Muziek'
 tags: ["Computerz, Muziek","linux"]
 thumbnail: '/images/thumbnails/linux.png'

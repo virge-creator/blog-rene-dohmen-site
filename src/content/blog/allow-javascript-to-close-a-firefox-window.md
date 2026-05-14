@@ -1,7 +1,7 @@
 ---
 title: 'Allow javascript to close a firefox window'
 date: '2010-02-28 21:38'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","javascript"]
 thumbnail: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800'

@@ -1,7 +1,7 @@
 ---
 title: 'Create a new remote GIT branch'
 date: '2011-07-27 16:19'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","git"]
 thumbnail: '/images/thumbnails/linux.png'

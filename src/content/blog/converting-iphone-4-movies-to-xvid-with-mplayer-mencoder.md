@@ -1,7 +1,7 @@
 ---
 title: 'Converting iphone 4 movies to xvid with mplayer / mencoder'
 date: '2010-11-22 22:06'
-author: 'undefined'
+author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","linux"]
 thumbnail: '/images/thumbnails/video.jpg'
