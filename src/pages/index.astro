@@ -1,0 +1,71 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostCard from '../components/PostCard.astro';
+
+const allPosts = await getCollection('blog', ({ data }) => data.status === 'published');
+const sortedPosts = allPosts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+const recentPosts = sortedPosts.slice(0, 6);
+---
+
+<BaseLayout>
+  <section class="bg-gradient-to-b from-gray-900 to-dark border-b border-gray-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
+      <div class="text-center">
+        <h1 class="text-5xl md:text-7xl font-bold mb-6">
+          <span class="gradient-text">René Dohmen</span>
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
+          CEO of Formatics. Developer, Linux enthusiast, musician, and motorcyclist.
+          Writing about code, life, and everything in between.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <a href="/blog/" class="px-8 py-3 bg-orange text-white font-semibold rounded-lg hover:bg-amber-600 transition-all hover:scale-105">
+            Read the Blog
+          </a>
+          <a href="/about/" class="px-8 py-3 bg-gray-800 text-white font-semibold rounded-lg hover:bg-gray-700 transition-all hover:scale-105 border border-gray-700">
+            About Me
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div class="flex justify-between items-center mb-8">
+      <h2 class="text-3xl font-bold gradient-text">Recent Posts</h2>
+      <a href="/blog/" class="text-orange hover:text-amber-500 transition-colors font-semibold">View All</a>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {recentPosts.map((post) => (
+        <PostCard
+          title={post.data.title}
+          date={post.data.date}
+          category={post.data.category}
+          tags={post.data.tags}
+          thumbnail={post.data.thumbnail}
+          slug={post.slug}
+          excerpt={post.body.slice(0, 150).replace(/[#*`]/g, '') + '...'}
+        />
+      ))}
+    </div>
+  </section>
+
+  <section class="bg-gray-900 border-t border-gray-800 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold gradient-text mb-8">Explore by Category</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        {['Computerz', 'Music', 'Life', 'Food', 'Personal'].map((cat) => {
+          const count = allPosts.filter(p => p.data.category === cat).length;
+          return count > 0 ? (
+            <a href={`/category/${cat.toLowerCase().replace(/\s+/g, '-')}/`} class="p-6 bg-dark border border-gray-800 rounded-lg hover:border-orange transition-all hover:scale-105 text-center">
+              <h3 class="text-xl font-semibold mb-2 text-white">{cat}</h3>
+              <p class="text-gray-400 text-sm">{count} posts</p>
+            </a>
+          ) : null;
+        })}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

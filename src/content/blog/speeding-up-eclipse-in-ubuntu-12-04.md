@@ -1,0 +1,25 @@
+---
+title: 'Speeding up Eclipse in Ubuntu 12.04'
+date: '2012-12-07 00:49'
+author: 'undefined'
+category: 'Computerz'
+tags: ["Computerz","linux"]
+thumbnail: '/images/thumbnails/ubuntu.jpg'
+status: 'published'
+---
+
+I noticed that Eclipse was getting very Slow. Even with 6Gb of mem.
+
+``` {.bash}
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java7-installer
+```
+
+Then choose it:
+
+``` {.bash}
+sudo update-alternatives --config java
+```
+
+Image: Screenshot-from-2012-12-07-013717.png

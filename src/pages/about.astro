@@ -1,0 +1,68 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="About René Dohmen">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <h1 class="text-5xl font-bold mb-8 gradient-text">About Me</h1>
+    
+    <div class="prose prose-invert max-w-none">
+      <div class="bg-gray-900 border border-gray-800 rounded-lg p-8 mb-8">
+        <p class="text-xl text-gray-300 leading-relaxed">
+          Hi, I'm René Dohmen, CEO of <a href="https://www.formatics.nl" target="_blank" rel="noopener" class="text-orange hover:text-amber-500">Formatics</a> 
+          and a passionate developer with a deep love for Linux, open source, music, and motorcycles.
+        </p>
+      </div>
+
+      <h2>What I Do</h2>
+      <p>
+        I lead Formatics, where we build innovative software solutions. My technical background spans
+        full-stack development, DevOps, and system architecture. I'm particularly passionate about:
+      </p>
+      <ul>
+        <li>Python and modern web frameworks (Django, FastAPI)</li>
+        <li>Linux system administration and automation</li>
+        <li>Open source software and contributing to the community</li>
+        <li>Building scalable, maintainable applications</li>
+      </ul>
+
+      <h2>Beyond Code</h2>
+      <p>
+        When I'm not writing code or running a company, you'll find me:
+      </p>
+      <ul>
+        <li>🎸 Making music and exploring new sounds</li>
+        <li>🏍️ Riding motorcycles (proud Suzuki VX800 owner!)</li>
+        <li>🐧 Tinkering with Linux systems and experimenting with new tech</li>
+        <li>📚 Learning and sharing knowledge through this blog</li>
+      </ul>
+
+      <h2>Why This Blog?</h2>
+      <p>
+        I started this blog to document my journey, share solutions to problems I've encountered,
+        and contribute back to the tech community that has taught me so much. You'll find posts
+        about programming, Linux, development workflows, and occasionally my other interests.
+      </p>
+
+      <h2>Get in Touch</h2>
+      <p>
+        Feel free to connect with me on <a href="https://github.com/acidjunk" target="_blank" rel="noopener">GitHub</a> 
+        where I share open source projects and contributions.
+      </p>
+
+      <div class="mt-12 p-6 bg-orange/10 border border-orange/30 rounded-lg">
+        <p class="text-center text-lg mb-4">
+          Thanks for visiting! I hope you find something useful or interesting here.
+        </p>
+        <div class="text-center">
+          <a 
+            href="/blog/" 
+            class="inline-block px-6 py-3 bg-orange text-white font-semibold rounded-lg hover:bg-amber-600 transition-all"
+          >
+            Check out the blog
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

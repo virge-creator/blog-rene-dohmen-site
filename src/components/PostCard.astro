@@ -1,0 +1,76 @@
+---
+interface Props {
+  title: string;
+  date: Date;
+  category: string;
+  tags: string[];
+  thumbnail?: string;
+  slug: string;
+  excerpt?: string;
+}
+
+const { title, date, category, tags, thumbnail, slug, excerpt } = Astro.props;
+
+const formattedDate = new Intl.DateTimeFormat('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+}).format(date);
+---
+
+<article class="bg-gray-900 rounded-lg overflow-hidden border border-gray-800 card-glow h-full flex flex-col">
+  <!-- Thumbnail -->
+  {thumbnail && (
+    <div class="aspect-video w-full overflow-hidden">
+      <img 
+        src={thumbnail} 
+        alt={title}
+        class="w-full h-full object-cover"
+        loading="lazy"
+      />
+    </div>
+  )}
+
+  <div class="p-6 flex-1 flex flex-col">
+    <!-- Category badge -->
+    <div class="mb-3">
+      <a 
+        href={`/category/${category.toLowerCase().replace(/\s+/g, '-')}/`}
+        class="inline-block px-3 py-1 text-xs font-semibold bg-orange/20 text-orange rounded-full hover:bg-orange/30 transition-colors"
+      >
+        {category}
+      </a>
+    </div>
+
+    <!-- Title -->
+    <h2 class="text-xl font-bold mb-2 text-white hover:text-orange transition-colors">
+      <a href={`/${slug}/`}>{title}</a>
+    </h2>
+
+    <!-- Date -->
+    <div class="flex items-center text-sm text-gray-400 mb-4">
+      <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+      </svg>
+      {formattedDate}
+    </div>
+
+    <!-- Excerpt -->
+    {excerpt && (
+      <p class="text-gray-300 mb-4 flex-1 line-clamp-3">
+        {excerpt}
+      </p>
+    )}
+
+    <!-- Tags -->
+    {tags.length > 0 && (
+      <div class="flex flex-wrap gap-2 mt-auto pt-4 border-t border-gray-800">
+        {tags.slice(0, 3).map((tag) => (
+          <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">
+            {tag}
+          </span>
+        ))}
+      </div>
+    )}
+  </div>
+</article>

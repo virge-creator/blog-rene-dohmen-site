@@ -1,0 +1,33 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+
+const allPosts = await getCollection('blog', ({ data }) => data.status === 'published');
+const sortedPosts = allPosts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+---
+
+<BaseLayout title="Blog">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <header class="mb-12">
+      <h1 class="text-5xl font-bold mb-4 gradient-text">All Posts</h1>
+      <p class="text-xl text-gray-400">
+        {sortedPosts.length} articles about code, Linux, music, motorcycles, and life
+      </p>
+    </header>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {sortedPosts.map((post) => (
+        <PostCard
+          title={post.data.title}
+          date={post.data.date}
+          category={post.data.category}
+          tags={post.data.tags}
+          thumbnail={post.data.thumbnail}
+          slug={post.slug}
+          excerpt={post.body.slice(0, 150).replace(/[#*`]/g, '') + '...'}
+        />
+      ))}
+    </div>
+  </div>
+</BaseLayout>

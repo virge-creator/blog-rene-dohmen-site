@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  @apply bg-dark text-gray-100 antialiased;
+}
+
+/* Glow effect for cards */
+.card-glow {
+  @apply transition-all duration-300;
+}
+
+.card-glow:hover {
+  @apply shadow-[0_0_20px_rgba(249,115,22,0.3)] scale-[1.02];
+}
+
+/* Gradient text */
+.gradient-text {
+  @apply bg-gradient-to-r from-orange to-amber-500 bg-clip-text text-transparent;
+}
+
+/* Prose styles for blog content */
+.prose {
+  @apply max-w-none;
+}
+
+.prose h2 {
+  @apply text-2xl font-bold mt-8 mb-4 text-orange;
+}
+
+.prose h3 {
+  @apply text-xl font-bold mt-6 mb-3 text-orange/90;
+}
+
+.prose p {
+  @apply mb-4 leading-relaxed;
+}
+
+.prose a {
+  @apply text-orange hover:text-amber-500 underline transition-colors;
+}
+
+.prose code {
+  @apply bg-gray-800 px-1.5 py-0.5 rounded text-sm;
+}
+
+.prose pre {
+  @apply bg-gray-800 p-4 rounded-lg overflow-x-auto my-4;
+}
+
+.prose ul, .prose ol {
+  @apply mb-4 pl-6;
+}
+
+.prose li {
+  @apply mb-2;
+}
+
+.prose img {
+  @apply rounded-lg my-4;
+}
+
+.prose blockquote {
+  @apply border-l-4 border-orange pl-4 italic my-4;
+}
