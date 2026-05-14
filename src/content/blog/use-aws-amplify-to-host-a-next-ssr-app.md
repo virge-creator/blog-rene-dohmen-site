@@ -4,7 +4,7 @@ date: '2024-01-29 01:15'
 author: 'acidjunk'
 category: 'Computerz'
 tags: ["Computerz","javascript","aws","vercel","nextjs","devops"]
-thumbnail: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=630&fit=crop'
+thumbnail: '/images/thumbnails/serverless.jpg'
 status: 'published'
 ---
 
