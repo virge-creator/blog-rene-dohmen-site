@@ -92,3 +92,23 @@ body {
 .prose blockquote {
   @apply border-l-4 border-orange pl-4 italic my-4;
 }
+
+.prose table {
+  @apply w-full my-6 border-collapse;
+}
+
+.prose thead {
+  @apply border-b-2 border-orange;
+}
+
+.prose th {
+  @apply px-4 py-3 text-left text-orange font-semibold text-sm uppercase tracking-wider;
+}
+
+.prose td {
+  @apply px-4 py-3 border-b border-gray-800;
+}
+
+.prose tbody tr:hover {
+  @apply bg-gray-800/50;
+}
