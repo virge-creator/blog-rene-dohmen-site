@@ -1,111 +1,200 @@
 ---
 title: 'Working with git submodules'
-date: '2023-10-15 18:55'
+date: '2026-05-14 12:00'
 author: 'acidjunk'
 category: 'Computerz'
-tags: ["Computerz","git"]
+tags: ["Computerz","git","cheatsheet","devops"]
 thumbnail: '/images/thumbnails/git.png'
 status: 'published'
 ---
 
-During the split of the [orchestrator-gui](https://github.com/workfloworchestrator/orchestrator-core-gui) into a
-public part, covered by the Apache 2 license and a, closed src, SURF specific part we decided to use git submodules
-for it. The idea: we will have 2 projects that depend on each other and we want to be able to make versioned changes
-in both.
+Git submodules are one of those features that are incredibly powerful — until they're not. I've been using them extensively since we split the [orchestrator-gui](https://github.com/workfloworchestrator/orchestrator-core-gui) into a public Apache 2 licensed part and a closed-source SURF-specific part. Two projects, tightly coupled, both under version control, needing versioned changes together.
 
-I think that `git submodules` are a feature that can be very handy for projects that use an internal library that. Of
-course this also depends on the used programming language. If packaging a lib is easy enough you'll probably want to use
-that. Though when projects grow, this agnostic way of managing multiple version repo's and their relationships is
-really powerful.
+Over the years I've collected enough scars (and shortcuts) to write this guide. It covers the basics, the daily workflow, and ends with a **cheat sheet** for when you just need to get stuff done without thinking.
 
-In this article I won't do a very detailed dive into submodules. You can read a very long version
-[here](https://git-scm.com/book/en/v2/Git-Tools-Submodules), but instead I will focus on some often used commands
-that cover some often used scenario's like switching between the branches of the main and the sub projects. It's
-meant to help you with day-to-day operation.
+## Why submodules?
 
-## Start a new submodule integration
+If packaging a library is easy in your language (npm, pip, cargo), you probably want to do that instead. But when projects grow and you need to:
 
-You start the relation by adding a submodule to your main project:
+- Share code between repos without publishing packages
+- Pin exact versions of dependencies across projects
+- Work on library + consumer simultaneously
+
+...then submodules are a solid, language-agnostic solution. The official [Git docs](https://git-scm.com/book/en/v2/Git-Tools-Submodules) go deep, but this article focuses on **day-to-day operations**.
+
+## Adding a submodule
 
 ```bash
 git submodule add https://github.com/acidjunk/some-cool-library
 ```
 
-By default, submodules will add the subproject into a directory named the same as the repository, in this case
-“some-cool-library”. You can add a different path at the end of the command if you want it to go elsewhere.
+This creates a `.gitmodules` file tracking the submodule's folder name and remote URL. The submodule folder itself is recorded as a special `160000` mode entry — Git tracks the *commit SHA*, not the files.
 
-In the main repo a new file is now created: `.gitmodules` which keeps track of the version of the used submodule. This
-file keep track of the foldername for your submodule and it's remote github URL. When both projects are in the same
-git repo domain you use relative paths.
-
-Another change can be observed in the repo. The folder that contains the submodule is now also under version control,
-but git only shows you the commit SHA1 of the branch inside the folder.
-
-`$ git diff --cached some-cool-library`
-
-output:
 ```
 diff --git a/some-cool-library b/some-cool-library
 new file mode 160000
-index 0000000..c3f01dc
---- /dev/null
-+++ b/DbConnector
-@@ -0,0 +1 @@
 +Subproject commit de1dc8862123d317dd46284b05b6892c7b2a23
 ```
 
-When you now commit the code you will see that the file mode will be 160000 for the `some-cool-library` folder. That
-is a special mode in Git that basically means you’re recording a commit as a directory entry rather than a
-subdirectory or a file.
+Use relative URLs in `.gitmodules` when both repos live on the same host — makes it easier for forks and mirrors.
 
-## Cloning a Project with Submodules
+## Cloning a project with submodules
 
-We’ll clone a project with a submodule in it. When you clone such a project, by default you get the directories that
-contain submodules, but none of the files within them yet, so to "completely" get the code on your local device:
+When you clone a repo with submodules, the submodule directories are empty by default. Fix that in one go:
 
 ```bash
-git clone git@github.com:workfloworchestrator/orchestrator-ui-library.git
-git submodule init
-git submodule update
+git clone --recurse-submodules git@github.com:org/project.git
 ```
 
-If you later decide that you want to bring the submodule in sync with the rmeote again:
+Already cloned? No problem:
+
+```bash
+git submodule update --init --recursive
+```
+
+To pull the latest changes from the submodule's remote:
 
 ```bash
 git submodule update --remote
 ```
 
-## Some tips and tricks to make live easier when you use submodules a lot
+## Daily workflow tips
 
-Working with git submodules can be powerful but also complex. Here are several tips and tricks to make your life easier when using git submodules extensively:
+### Check submodule status
 
-### 1. Cloning Repositories with submodules
-When you clone a repository that contains submodules, the submodules will initially be empty. Use `git clone --recurse-submodules` to clone the repository and all of its submodules at once. If you've already cloned the repository, you can use `git submodule update --init --recursive` to fetch and update the submodules.
+```bash
+git submodule status
+```
 
-### 2. Simplify submodule commands with an alias
-If you find yourself repeatedly typing long submodule commands, consider adding aliases to your `.gitconfig` file. For example, you can add an alias like `update-submodules = submodule update --init --recursive` to simplify the submodule update process.
+Shows the current commit for each submodule and whether it's modified.
 
-### 3. Check submodule status easily
-Use `git submodule status` to quickly check the status of all submodules. This will show you the commit each submodule is currently checked out at, along with any modifications.
+### Working inside a submodule
 
-### 4. Working on a submodule
-When you need to make changes within a submodule, treat it like any other repository: make changes, commit them, and push. However, remember to go back to the parent repository to commit the change in the submodule reference. This ensures that others will get the correct submodule state when they update.
+Treat it like any normal repo: make changes, commit, push. Then go back to the parent repo and commit the updated submodule reference:
 
-### 5. Avoid hardcoding submodule URLs
-If you're working in a team or across various environments, consider using relative URLs for your submodules in the `.gitmodules` file. This makes it easier to work with different forks or mirrors of the main project and its submodules.
+```bash
+cd some-cool-library
+# make changes, commit, push
+cd ..
+git add some-cool-library
+git commit -m "Update submodule to latest"
+```
 
-### 6. Handling submodule branches
-If you work with submodules that need to track certain branches, you can specify a branch in the `.gitmodules` file by adding `branch = your-branch-name` under the relevant submodule section. Remember to run `git submodule update --remote` to fetch changes from the tracked branch.
+### Track a specific branch
 
-### 7. Use `git diff` with submodules
-To see changes in submodules, you can use `git diff --submodule`. This will show you a diff of what's changed in each submodule.
+Add to `.gitmodules`:
 
-### 8. Automate submodule syncing
-Ensure that your submodule URLs are always up to date with `git submodule sync`. This command updates the URLs of the submodules to match what's specified in the `.gitmodules` file, which is useful if the submodule URLs have changed.
+```ini
+[submodule "some-cool-library"]
+    path = some-cool-library
+    url = https://github.com/acidjunk/some-cool-library
+    branch = develop
+```
 
-### 9. Utilize Git Hooks
-Automate some of your submodule workflows with Git hooks. For example, you can create a post-checkout hook that runs `git submodule update --init --recursive` every time you checkout a branch, ensuring that your submodules are always in the correct state.
+Then fetch with `git submodule update --remote`.
 
-Mastering git submodules requires patience and practice. These tips and tricks can help streamline your workflow, making it easier to manage projects that depend on submodules.
+### See what changed in submodules
 
-Happy coding!
+```bash
+git diff --submodule
+```
+
+### Keep URLs in sync
+
+If submodule URLs change (moved repo, new fork):
+
+```bash
+git submodule sync
+git submodule update --init --recursive
+```
+
+### Automate with Git hooks
+
+Create a `.git/hooks/post-checkout` hook:
+
+```bash
+#!/bin/sh
+git submodule update --init --recursive
+```
+
+This ensures submodules are always in the correct state after switching branches.
+
+### Useful aliases
+
+Add these to your `~/.gitconfig`:
+
+```ini
+[alias]
+    supdate = submodule update --init --recursive
+    spull = !git pull && git submodule update --init --recursive
+    sdiff = diff --submodule
+```
+
+Now `git spull` pulls the main repo AND updates all submodules in one command.
+
+## Cheat sheet: switch branches without submodule drama
+
+This is the one you'll come back to. When you need to switch branches and want everything — main repo and all submodules — to be exactly in sync with the remote, no questions asked:
+
+### 1. Fetch everything
+
+```bash
+git fetch --all --recurse-submodules
+```
+
+### 2. Switch branch
+
+```bash
+git checkout main
+```
+
+### 3. Hard reset main repo + all submodules
+
+```bash
+git reset --hard origin/main
+git submodule update --init --recursive --force
+```
+
+### What this gives you
+
+- Your main repo is exactly at `origin/main`
+- Each submodule is checked out at the commit recorded in that branch
+- No local submodule changes remain
+- No "modified content" or "new commits" noise in `git status`
+
+This is the nuclear option — it wipes all local changes. Use it when you just want a clean state and don't care about uncommitted work.
+
+### The safe version
+
+If you want to stash local changes first:
+
+```bash
+git stash --include-untracked
+git fetch --all --recurse-submodules
+git checkout main
+git reset --hard origin/main
+git submodule update --init --recursive --force
+git stash pop  # get your local changes back
+```
+
+## Common gotchas
+
+**"Submodule has modified content"**: You accidentally made changes inside a submodule directory. Either commit them (in the submodule) or discard with `git submodule update --force`.
+
+**Detached HEAD in submodule**: This is normal! Submodules check out a specific commit, not a branch. If you need to work on it, `cd` into the submodule and `git checkout develop` (or whatever branch you need).
+
+**CI/CD forgets submodules**: Most CI systems don't recurse submodules by default. In GitHub Actions:
+
+```yaml
+- uses: actions/checkout@v4
+  with:
+    submodules: recursive
+```
+
+**Nested submodules**: Yes, submodules can contain submodules. Always use `--recursive` flags to handle the full tree.
+
+## Final thoughts
+
+Submodules aren't perfect — they add complexity and can confuse team members who aren't familiar with them. But for the right use case (shared libraries, multi-repo architectures, licensing splits), they're the best tool Git offers natively.
+
+The cheat sheet above is what I use daily. Print it, bookmark it, alias it. Happy coding!
