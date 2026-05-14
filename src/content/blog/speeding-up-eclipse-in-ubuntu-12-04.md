@@ -22,4 +22,4 @@ Then choose it:
 sudo update-alternatives --config java
 ```
 
-Image: Screenshot-from-2012-12-07-013717.png
+![Screenshot-from-2012-12-07-013717.png](/blog-rene-dohmen-site/images/posts/speeding-up-eclipse-in-ubuntu-12-04/Screenshot-from-2012-12-07-013717.png)

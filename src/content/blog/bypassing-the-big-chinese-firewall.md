@@ -32,7 +32,7 @@ OpenVPN
 
 Although ipsec is better OpenVPN is easier and very stable. With the
 coolness of pfsense you can configure it via a wizard.
-Image: Schermafbeelding-2013-12-24-om-04.05.33.png
+![Schermafbeelding-2013-12-24-om-04.05.33.png](/blog-rene-dohmen-site/images/posts/bypassing-the-big-chinese-firewall/Schermafbeelding-2013-12-24-om-04.05.33.png)
 
 It can be configured in 2 ways: normal OpenVPN and Redirect OpenVPN; the
 last one is ideal for this situation; it will, once it's active, send
@@ -71,15 +71,15 @@ ssh -D 5222 -p 1234 user@myhomelinuxserver.com -N
 In Chrome you can use the excellent Falcon proxy extension to setup the
 SOCKS proxy; so you switch proxies fast:
 
-Image: Screenshot-from-2014-01-10-223059.png
+![Screenshot-from-2014-01-10-223059.png](/blog-rene-dohmen-site/images/posts/bypassing-the-big-chinese-firewall/Screenshot-from-2014-01-10-223059.png)
 
 In Firefox you can use the buildin proxy support with setting to manual:
-Image: Screenshot-from-2014-01-10-223959.png
+![Screenshot-from-2014-01-10-223959.png](/blog-rene-dohmen-site/images/posts/bypassing-the-big-chinese-firewall/Screenshot-from-2014-01-10-223959.png)
 
 For a more permanent setting you can use the systems settings for a
 proxy; at least this is working fine on Ubuntu:
 
-Image: Screenshot-from-2014-01-10-223716.png
+![Screenshot-from-2014-01-10-223716.png](/blog-rene-dohmen-site/images/posts/bypassing-the-big-chinese-firewall/Screenshot-from-2014-01-10-223716.png)
 
 Conclusion
 ==========

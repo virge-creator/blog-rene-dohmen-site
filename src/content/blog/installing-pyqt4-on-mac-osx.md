@@ -114,8 +114,8 @@ cp -r /usr/local/Cellar/qt/4.7.4/lib/QtGui.framework/Versions/4/Resources/qt_men
 
 I had a working app, so brilliant stuff from the pyinstaller gurus
 
-Image: Schermafbeelding-2011-11-05-om-16.36.12.png
-Image: Schermafbeelding-2011-11-05-om-16.36.22.png
+![Schermafbeelding-2011-11-05-om-16.36.12.png](/blog-rene-dohmen-site/images/posts/installing-pyqt4-on-mac-osx/Schermafbeelding-2011-11-05-om-16.36.12.png)
+![Schermafbeelding-2011-11-05-om-16.36.22.png](/blog-rene-dohmen-site/images/posts/installing-pyqt4-on-mac-osx/Schermafbeelding-2011-11-05-om-16.36.22.png)
 
 The only, problem at first: this app doesn't get focus on launch.
 

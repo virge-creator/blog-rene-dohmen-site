@@ -66,7 +66,7 @@ is an era in jscript country. So I went ahead and applied the
 outstanding PR, deleted the function and ran the *create.sh* script
 again. More luck this time as I now could see
 
-Image: amazon-lambda-serverless-lilypond-1.png
+<!-- Image not found: amazon-lambda-serverless-lilypond-1.png -->
 
 Which indicated that I had a problem with the lilypond binary, but that
 the rest of the AWS lambda function, including the jscript part that

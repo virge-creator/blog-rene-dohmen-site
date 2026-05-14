@@ -25,7 +25,7 @@ const sortedPosts = allPosts.sort((a, b) => b.data.date.getTime() - a.data.date.
           tags={post.data.tags}
           thumbnail={post.data.thumbnail}
           slug={post.slug}
-          excerpt={post.body.slice(0, 150).replace(/[#*`]/g, '') + '...'}
+          excerpt={post.body.slice(0, 200).replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/[#*`\[\]]/g, '').trim() + '...'}
         />
       ))}
     </div>

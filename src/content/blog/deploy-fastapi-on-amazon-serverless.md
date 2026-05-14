@@ -46,7 +46,7 @@ depending on the purpose of the Lambda function. We’ll take an existing permis
 select the `AWSLambdaBasicExecutionRole` which only allows our Lambda to write logs to AWS Cloudwatch. The project I'm
 using also need Postgres so I also selected: `AmazonRDSDataFullAccess`
 
-Image: rds-permissions.png
+![rds-permissions.png](/blog-rene-dohmen-site/images/posts/deploy-fastapi-on-amazon-serverless/rds-permissions.png)
 
 Press next, give it a tag or don’t and press Review. Now you’re prompted to give it a name. Choose a meaningful name
 (e.g. fastapi-postgres-boilerplate) and continue to create the role, which takes you back to Roles where you click
@@ -209,7 +209,7 @@ sam deploy --template-file out.yml \
 
 If all went OK you'll see something like this:
 
-Image: deployment.png
+![deployment.png](/blog-rene-dohmen-site/images/posts/deploy-fastapi-on-amazon-serverless/deployment.png)
 
 Now you can go to the [API Gateway Console](https://eu-central-1.console.aws.amazon.com/apigateway/main/apis?region=eu-central-1)
 to check what the dynamically generated name of the new API gateway is. Look for Stage: `prod`. In the CloudWatch
@@ -224,11 +224,11 @@ name. When your domain is managed by Amazon Route 53 it will auto-renew the SSL 
 
 ### Setup a mapping:
 
-Image: api-mappings.png
+![api-mappings.png](/blog-rene-dohmen-site/images/posts/deploy-fastapi-on-amazon-serverless/api-mappings.png)
 
 When you now return to the previous screen you can see the cloudfront distribution that this mapping created for you.
 
-Image: cloudfront.png
+![cloudfront.png](/blog-rene-dohmen-site/images/posts/deploy-fastapi-on-amazon-serverless/cloudfront.png)
 
 > Take a note of the cloudfront name: that's the name you will need use to for the CNAME pointer.
 
@@ -246,7 +246,7 @@ But as the database doesn't exist yet it will mainly serve error 500's.
 Probably best to setup a separate RDS instance just for this app. But I don't want to be too opinionated; if you want
 to add all companies DB's under one RDS instance that's also fine (I think). Create a new RDS PotsgreSQL instance:
 
-Image: rds-setup.png
+![rds-setup.png](/blog-rene-dohmen-site/images/posts/deploy-fastapi-on-amazon-serverless/rds-setup.png)
 
 Set it up for Postgres 12 in a region near you. The *Free tier* will be enough for this experiment. Also ensure that
 you setup a *Master username* and *Master password* and note it down somewhere. After that you will need to lookup the
@@ -298,7 +298,7 @@ psql -U boilerplate -h AMAZON_RDS_ENDPOINT boilerplate
 
 3. Victory looks like this:
 
-Image: postgres-console.png
+![postgres-console.png](/blog-rene-dohmen-site/images/posts/deploy-fastapi-on-amazon-serverless/postgres-console.png)
 
 You can now create the tables and populate it with data. As I still don't have a good way to init this; I often use a
 locally running fastapi instance that get its `DATABASE_URI` from and `.env` file.
@@ -325,4 +325,4 @@ in the master branch.
 NOTE: this blog post isn't finished yet and the fastapi boilerplate tests indicate that at least saving of products
 isn't working yet..
 
-Image: api-response.png
+![api-response.png](/blog-rene-dohmen-site/images/posts/deploy-fastapi-on-amazon-serverless/api-response.png)

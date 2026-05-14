@@ -51,7 +51,7 @@ sudo pipelight-plugin --enable silverlight
 Now you need an Chrome extension called "User-Agent Switcher for
 Chrome" so you can force the user agent to "Windows Firefox 15". You
 can even spoof it on a permanent basis for the domain netflix.com.
-Image: Schermafdruk-van-2014-03-11-005155.png
+![Schermafdruk-van-2014-03-11-005155.png](/blog-rene-dohmen-site/images/posts/running-unity3d-webplayer-on-your-linux-box/Schermafdruk-van-2014-03-11-005155.png)
 
 After that enable the Unity3d plugin:
 
@@ -68,4 +68,4 @@ Now try it with some games:
 <http://www.kongregate.com/games/flippfly/race-the-sun>
 <http://dev.formatics.nl/tictactoe>
 
-Image: Schermafdruk-van-2014-03-11-011958.png
+![Schermafdruk-van-2014-03-11-011958.png](/blog-rene-dohmen-site/images/posts/running-unity3d-webplayer-on-your-linux-box/Schermafdruk-van-2014-03-11-011958.png)

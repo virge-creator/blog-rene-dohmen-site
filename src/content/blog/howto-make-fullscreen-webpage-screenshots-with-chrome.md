@@ -16,7 +16,7 @@ When you have the Developers console open (F12 on mac) you can enter:
 `apple + shift + p` or `Ctrl + Shift P` if you’re on a PC and you will see a search enabled screen to show other
 dev tools. Type "screenshot" and choose one of the options.
 
-Image: screenshot.png
+![screenshot.png](/blog-rene-dohmen-site/images/posts/howto-make-fullscreen-webpage-screenshots-with-chrome/screenshot.png)
 
 `Capture full size screenshot` will capture the entire page, with the width it currently has on your screen, excluding
 the developer console itself.

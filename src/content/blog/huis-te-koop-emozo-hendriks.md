@@ -12,10 +12,10 @@ Hier kun je zien hoe het huis op emozo te zien is:
 [\|image0\|](http://hendriks.emozo.nl/woning.asp?RecID=143277#.Trk9ybKBe5d.wordpress)
 
 Verder nog wat foto's:
-Image: 502_groot.jpg
-Image: 506_groot.jpg
-Image: 515_groot.jpg
-Image: 504_groot.jpg
+![502_groot.jpg](/blog-rene-dohmen-site/images/posts/huis-te-koop-emozo-hendriks/502_groot.jpg)
+![506_groot.jpg](/blog-rene-dohmen-site/images/posts/huis-te-koop-emozo-hendriks/506_groot.jpg)
+![515_groot.jpg](/blog-rene-dohmen-site/images/posts/huis-te-koop-emozo-hendriks/515_groot.jpg)
+![504_groot.jpg](/blog-rene-dohmen-site/images/posts/huis-te-koop-emozo-hendriks/504_groot.jpg)
 
 En op Funda:
 

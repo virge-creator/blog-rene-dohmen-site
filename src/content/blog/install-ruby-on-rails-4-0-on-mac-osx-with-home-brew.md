@@ -175,4 +175,4 @@ Output:
 Screenshot of the Rails hello world app
 =======================================
 
-Image: Schermafbeelding-2014-04-05-om-14.34.39.png
+![Schermafbeelding-2014-04-05-om-14.34.39.png](/blog-rene-dohmen-site/images/posts/install-ruby-on-rails-4-0-on-mac-osx-with-home-brew/Schermafbeelding-2014-04-05-om-14.34.39.png)

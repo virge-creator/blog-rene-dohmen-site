@@ -28,7 +28,7 @@ yarn start
 ```
 
 Note: You can choose "tabs" for a workflow to get a working BottomTabBar:
-Image: react-native-example-app.png
+![react-native-example-app.png](/blog-rene-dohmen-site/images/posts/run-expo-webserver-with-port-forwarding/react-native-example-app.png)
 
 To whole stack can run with two fixed TCP ports. In this post I assume port `30000` and `30000`. If you want to
 run more apps you should change the port numbers for consecutive instances.

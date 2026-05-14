@@ -47,4 +47,4 @@ chmod +x setup-web2py-heroku.sh
 4.  That's it; Your app is deployed and Heroku opened a browser showing
     you
 
-Image: web2py-welcome-heroku.png
+![web2py-welcome-heroku.png](/blog-rene-dohmen-site/images/posts/installing-your-web2py-stack-on-the-heroku-cloud-in-4-simple-steps/web2py-welcome-heroku.png)

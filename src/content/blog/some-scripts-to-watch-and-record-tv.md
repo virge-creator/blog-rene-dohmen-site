@@ -14,7 +14,7 @@ you get an very flexible tv watching/streaming solution. It delivers it
 TV via the netwrok as an MPEG2 stream. You can watch television then for
 example with VLC or mplayer.
 
-Image: 11-3.jpg
+![11-3.jpg](/blog-rene-dohmen-site/images/posts/some-scripts-to-watch-and-record-tv/11-3.jpg)
 
 Because I want to start watching and recording fast from my linux of mac
 boxes i wrote 2 handy shell scripts to launch a viewer or to start
@@ -68,6 +68,6 @@ live. So record AND watching simultaneously :)
 
 I then added some items to my kde menu for the channels I watch most. I
 used the icons of the channels for it.
-Image: tv.jpg
+![tv.jpg](/blog-rene-dohmen-site/images/posts/some-scripts-to-watch-and-record-tv/tv.jpg)
 
-Image: snapshot2.jpg
+![snapshot2.jpg](/blog-rene-dohmen-site/images/posts/some-scripts-to-watch-and-record-tv/snapshot2.jpg)

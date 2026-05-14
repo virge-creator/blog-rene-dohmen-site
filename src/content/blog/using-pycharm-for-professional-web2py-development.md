@@ -15,7 +15,7 @@ you will need a fast computer with lots of RAM. Having a good IDE will
 boost productivity, especially in web2py projects were navigating
 between controllers and views involves a lot of files an folders.
 
-Image: Screenshot-from-2013-11-06-215500.png
+![Screenshot-from-2013-11-06-215500.png](/blog-rene-dohmen-site/images/posts/using-pycharm-for-professional-web2py-development/Screenshot-from-2013-11-06-215500.png)
 
 PyCharm has a lot of cool features: - navigate from controller to view
 with one click (see the little "h" in my screenshot) - autocomplete

@@ -72,7 +72,7 @@ Login in to your github account and navigate to:
 <https://github.com/settings/profile> =\> Personal access tokens =\>
 Generate new token
 
-Image: http://www.renedohmen.nl/blog/wp-content/uploads/2017/03/Screen-Shot-2017-03-24-at-21.55.57.png
+<!-- Image not found: http://www.renedohmen.nl/blog/wp-content/uploads/2017/03/Screen-Shot-2017-03-24-at-21.55.57.png -->
 
 After submitting the form you can copy/paste the token as the github.com
 key in auth.json

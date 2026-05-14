@@ -21,7 +21,7 @@ What this will cover
 
 ## S3 Bucket
 
-Image: enable-static-website-hosting.png
+![enable-static-website-hosting.png](/blog-rene-dohmen-site/images/posts/setup-amazon-cloudfront-and-s3-to-host-a-spa/enable-static-website-hosting.png)
 
 - Create an S3 bucket named exactly after the domain name, for example `banaan.org`. 
 - In **Properties**, click the Static Website section.
@@ -58,7 +58,7 @@ Uploading an `index.html` should allow us to visit the "endpoint"
 Note: that when you click on this field it will act like a dropdown with options to your existing buckets. But for me
 it often populates with S3 bucket names without the needed `s3-website.region` part. So I think you can't just select
 one of those dropdown items but have to enter it manually.
-Image: find-correct-endpoint.png
+![find-correct-endpoint.png](/blog-rene-dohmen-site/images/posts/setup-amazon-cloudfront-and-s3-to-host-a-spa/find-correct-endpoint.png)
 - The order of these instructions assume SSL certificates are not setup yet. So don't do anything with settings regarding SSL
 - Select "yes" for **Compress Objects Automatically**.
 - In **Alternate Domain Names (CNAMEs)**, put the domain names which you want to correspond to this bucket. Put each on their own line **OR** separated by comma. The reason why you may have two or more is something like this: `banaan.org` and `www.banaan.org`. The field is called "Alternative Domain Names" because AWS will have an aws-specific domain name for the CDN, but you don't want to use that so you'll want to put in your custom domains and then use Route 53 (next section) to point domains to the CDN.

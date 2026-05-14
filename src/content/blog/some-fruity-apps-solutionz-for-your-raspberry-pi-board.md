@@ -16,14 +16,14 @@ install lots of software. The are some android boards available already;
 but the Raspberry is something different; It's a ARM based linux device
 with roughly the same CPU & GPU power as the first Xbox.
 
-Image: Raspberry_Pi_Photo.jpg
+![Raspberry_Pi_Photo.jpg](/blog-rene-dohmen-site/images/posts/some-fruity-apps-solutionz-for-your-raspberry-pi-board/Raspberry_Pi_Photo.jpg)
 
 I got my first one from a client and it had OpenElec & XBMC 12.0 on it.
 697.95 BogoMips on ARMv6 rev 7 -\> with a BCM2708 serie (the BCM2835)
 and 512MB RAM. The preinstalled XBMC works fine; it played most of the
 video content. Even most of my 1080p content did work out of the box.
 
-Image: original-300x168.jpg
+<!-- Image not found: original-300x168.jpg -->
 
 Running debian
 ==============

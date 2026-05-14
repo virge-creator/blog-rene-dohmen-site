@@ -13,11 +13,11 @@ The last picasa is not available for linux. I looked for an easy way to
 posts about downloading it with firefox and the excellent download all
 plugin. But I found an easier way! use gthumb.
 
-Image: gthumb-picasa-import.png
+![gthumb-picasa-import.png](/blog-rene-dohmen-site/images/posts/downloading-picasa-webalbums-on-ubuntu/gthumb-picasa-import.png)
 
 Yes; it is that easy, login with your gmail or google apps account
 select the album you want to download and press Import.
 
 The only missing feature so far is a download all albums feature.
 
-Image: gthumb-picasa-import2.png(gthumb-picasa-import2.png)
+<!-- Image not found: gthumb-picasa-import2.png(gthumb-picasa-import2.png) -->

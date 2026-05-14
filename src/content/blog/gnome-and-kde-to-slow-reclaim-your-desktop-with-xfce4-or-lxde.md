@@ -31,7 +31,7 @@ screencapture and harddisk temp monitoring. It's menu and windows
 placement, won't mean that you need 3 years of your life to get used to
 Unity's left side orientation of the current Ubuntu versions.
 
-Image: Schermafbeelding-2012-05-05-om-18.58.16.png
+![Schermafbeelding-2012-05-05-om-18.58.16.png](/blog-rene-dohmen-site/images/posts/gnome-and-kde-to-slow-reclaim-your-desktop-with-xfce4-or-lxde/Schermafbeelding-2012-05-05-om-18.58.16.png)
 
 Xfce on Debian testing
 ======================

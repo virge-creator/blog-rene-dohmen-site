@@ -24,7 +24,7 @@ option. Just make a new project and the set up your asset server
 connectoion. The easiest way is to login first, then click the "Show
 Projects" button. Click on the project en choose connect.
 
-Image: asset-server1.png
+![asset-server1.png](/blog-rene-dohmen-site/images/posts/setup-unity3d-asset-server-on-linux/asset-server1.png)
 
 For administrators
 ==================
@@ -63,4 +63,4 @@ of project structure is needed. The cool thing about the version stuff
 is that it integrates into the workflow. When you tried it there is no
 way back.
 
-Image: Schermafbeelding-2013-01-22-om-19.38.52-295x300.png
+<!-- Image not found: Schermafbeelding-2013-01-22-om-19.38.52-295x300.png -->

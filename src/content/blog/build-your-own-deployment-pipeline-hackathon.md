@@ -49,7 +49,7 @@ of users, safely and quickly in a sustainable way.
 
 Continuous delivery is, so to speak, the next logical step after
 continuous integration:
-Image: blogpic-32.png
+![blogpic-32.png](/blog-rene-dohmen-site/images/posts/build-your-own-deployment-pipeline-hackathon/blogpic-32.png)
 
 Why?
 ----

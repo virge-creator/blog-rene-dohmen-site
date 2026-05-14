@@ -22,7 +22,7 @@ Applications folder with the little arrow in it 0-). That's it. If and
 old version of the application exists you will get a prompt asking if
 you want to update, use both or cancel the "app install".
 
-Image: Schermafbeelding-2012-04-01-om-04.09.54.png
+![Schermafbeelding-2012-04-01-om-04.09.54.png](/blog-rene-dohmen-site/images/posts/building-fancy-dmg-images-on-mac-os-x/Schermafbeelding-2012-04-01-om-04.09.54.png)
 
 So fancy disk images is a nice thing to do for most of your application
 users; here we go:

@@ -51,14 +51,38 @@ body {
 
 .prose pre {
   @apply bg-gray-800 p-4 rounded-lg overflow-x-auto my-4;
+  text-indent: 0;
 }
 
-.prose ul, .prose ol {
-  @apply mb-4 pl-6;
+.prose pre code {
+  @apply p-0 bg-transparent;
+  text-indent: 0;
+  white-space: pre;
+}
+
+.prose pre code span.line:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.prose ul {
+  @apply mb-4 pl-6 list-disc;
+}
+
+.prose ol {
+  @apply mb-4 pl-6 list-decimal;
 }
 
 .prose li {
   @apply mb-2;
+}
+
+.prose ul ul, .prose ol ul {
+  @apply list-[circle] mt-2;
+}
+
+.prose ol ol, .prose ul ol {
+  @apply list-[lower-alpha] mt-2;
 }
 
 .prose img {

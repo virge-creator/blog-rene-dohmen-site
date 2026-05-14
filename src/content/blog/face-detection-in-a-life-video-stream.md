@@ -51,6 +51,6 @@ Have fun: this is it working with Snow Leopard:
 
 It will detect all (human) faces with a reasonable accuracy:
 
-Image: Schermafbeelding-2010-08-14-om-17.54.37.png
+![Schermafbeelding-2010-08-14-om-17.54.37.png](/blog-rene-dohmen-site/images/posts/face-detection-in-a-life-video-stream/Schermafbeelding-2010-08-14-om-17.54.37.png)
 
-Image: Schermafbeelding-2010-08-14-om-17.39.103.png
+![Schermafbeelding-2010-08-14-om-17.39.103.png](/blog-rene-dohmen-site/images/posts/face-detection-in-a-life-video-stream/Schermafbeelding-2010-08-14-om-17.39.103.png)

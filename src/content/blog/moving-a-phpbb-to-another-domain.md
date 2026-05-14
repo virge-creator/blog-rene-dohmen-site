@@ -22,14 +22,14 @@ Administration Control Panel. On the General tab, select the Server
 settings link on the left-hand side of the page. Ensure Force server URL
 settings is set to NO.
 
-Image: 1.png
+![1.png](/blog-rene-dohmen-site/images/posts/moving-a-phpbb-to-another-domain/1.png)
 
 Then disable the forum for the moment, to make sure that no new posts
 etc are done while transferring the stuff to the new domain: Select the
 Board settings link on the left-hand side of the page. Ensure Disable
 board is set toYES.
 
-Image: 2.png
+![2.png](/blog-rene-dohmen-site/images/posts/moving-a-phpbb-to-another-domain/2.png)
 
 **Step 2**
 

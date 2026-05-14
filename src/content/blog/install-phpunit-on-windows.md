@@ -21,7 +21,7 @@ C:bin or something like that. Add the folder to your Path: e.g. add
 ";C:bin" to your PATH environment variable. In the Advanced System
 Properties, Environment variables: Image: 2015-02-23-13_35_17-Program-Manager.png
 
-Image: 2015-02-23-13_36_31-Program-Manager.png
+![2015-02-23-13_36_31-Program-Manager.png](/blog-rene-dohmen-site/images/posts/install-phpunit-on-windows/2015-02-23-13_36_31-Program-Manager.png)
 
 Download the .phar file
 =======================

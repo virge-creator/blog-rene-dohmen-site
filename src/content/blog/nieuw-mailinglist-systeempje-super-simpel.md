@@ -20,7 +20,7 @@ simpel de nieuwsbrief in elkaar kan zetten. We hebben diverse email
 templates die we simpel naar een andere huisstijl kunnen aanpassen maar
 we doen ook maatwerk templates uitwerken.
 
-Image: template_03_75procent.jpg
+![template_03_75procent.jpg](/blog-rene-dohmen-site/images/posts/nieuw-mailinglist-systeempje-super-simpel/template_03_75procent.jpg)
 
 En dan zijn er nog 2 knopjes: *test* en *zend*
 
