@@ -12,6 +12,7 @@ const {
 } = Astro.props;
 
 const fullTitle = title === "René Dohmen's Blog" ? title : `${title} | René Dohmen's Blog`;
+const base = import.meta.env.BASE_URL;
 ---
 
 <!doctype html>
@@ -20,7 +21,7 @@ const fullTitle = title === "René Dohmen's Blog" ? title : `${title} | René Do
     <meta charset="UTF-8" />
     <meta name="description" content={description} />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
     <meta name="generator" content={Astro.generator} />
     <title>{fullTitle}</title>
   </head>
@@ -30,14 +31,14 @@ const fullTitle = title === "René Dohmen's Blog" ? title : `${title} | René Do
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16 items-center">
           <div class="flex items-center">
-            <a href="/" class="text-xl font-bold gradient-text">René Dohmen</a>
+            <a href={base} class="text-xl font-bold gradient-text">René Dohmen</a>
           </div>
           
           <!-- Desktop Navigation -->
           <div class="hidden md:flex space-x-8">
-            <a href="/" class="hover:text-orange transition-colors">Home</a>
-            <a href="/blog/" class="hover:text-orange transition-colors">Blog</a>
-            <a href="/about/" class="hover:text-orange transition-colors">About</a>
+            <a href={base} class="hover:text-orange transition-colors">Home</a>
+            <a href={`${base}blog/`} class="hover:text-orange transition-colors">Blog</a>
+            <a href={`${base}about/`} class="hover:text-orange transition-colors">About</a>
             <a href="https://github.com/acidjunk" target="_blank" rel="noopener" class="hover:text-orange transition-colors">
               GitHub
             </a>
@@ -57,9 +58,9 @@ const fullTitle = title === "René Dohmen's Blog" ? title : `${title} | René Do
       <!-- Mobile Navigation -->
       <div id="mobile-menu" class="hidden md:hidden border-t border-gray-800">
         <div class="px-2 pt-2 pb-3 space-y-1">
-          <a href="/" class="block px-3 py-2 hover:bg-gray-800 hover:text-orange rounded transition-colors">Home</a>
-          <a href="/blog/" class="block px-3 py-2 hover:bg-gray-800 hover:text-orange rounded transition-colors">Blog</a>
-          <a href="/about/" class="block px-3 py-2 hover:bg-gray-800 hover:text-orange rounded transition-colors">About</a>
+          <a href={base} class="block px-3 py-2 hover:bg-gray-800 hover:text-orange rounded transition-colors">Home</a>
+          <a href={`${base}blog/`} class="block px-3 py-2 hover:bg-gray-800 hover:text-orange rounded transition-colors">Blog</a>
+          <a href={`${base}about/`} class="block px-3 py-2 hover:bg-gray-800 hover:text-orange rounded transition-colors">About</a>
           <a href="https://github.com/acidjunk" target="_blank" rel="noopener" class="block px-3 py-2 hover:bg-gray-800 hover:text-orange rounded transition-colors">GitHub</a>
         </div>
       </div>
