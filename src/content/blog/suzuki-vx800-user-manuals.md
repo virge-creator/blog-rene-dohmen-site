@@ -10,9 +10,9 @@ status: 'published'
 
 I just bought a Suzuki VX 800 from 1997. Here are some photoos:
 
-![vx800_1.jpg](/blog-rene-dohmen-site/images/posts/suzuki-vx800-user-manuals/vx800_1.jpg)
-![vx800_21.jpg](/blog-rene-dohmen-site/images/posts/suzuki-vx800-user-manuals/vx800_21.jpg)
-![vx800_3.jpg](/blog-rene-dohmen-site/images/posts/suzuki-vx800-user-manuals/vx800_3.jpg)
+![vx800_1.jpg](/images/posts/suzuki-vx800-user-manuals/vx800_1.jpg)
+![vx800_21.jpg](/images/posts/suzuki-vx800-user-manuals/vx800_21.jpg)
+![vx800_3.jpg](/images/posts/suzuki-vx800-user-manuals/vx800_3.jpg)
 
 I downloaded the Suzuki manuals and zipped them. This one is handy for
 all Suzuki VX 800 owners. Download the manual

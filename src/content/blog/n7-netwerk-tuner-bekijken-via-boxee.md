@@ -31,13 +31,13 @@ was dit snel duidelijk.
 Gebruikte test stream: (werkt alleen als je N7 streamer via
 192.168.5.128 te bereiken is.) <http://www.formatics.nl/test.rss>
 
-![Schermafbeelding-2011-07-07-om-18.56.37.png](/blog-rene-dohmen-site/images/posts/n7-netwerk-tuner-bekijken-via-boxee/Schermafbeelding-2011-07-07-om-18.56.37.png)
+![Schermafbeelding-2011-07-07-om-18.56.37.png](/images/posts/n7-netwerk-tuner-bekijken-via-boxee/Schermafbeelding-2011-07-07-om-18.56.37.png)
 
-![Schermafbeelding-2011-07-07-om-18.56.58.png](/blog-rene-dohmen-site/images/posts/n7-netwerk-tuner-bekijken-via-boxee/Schermafbeelding-2011-07-07-om-18.56.58.png)
+![Schermafbeelding-2011-07-07-om-18.56.58.png](/images/posts/n7-netwerk-tuner-bekijken-via-boxee/Schermafbeelding-2011-07-07-om-18.56.58.png)
 
-![Schermafbeelding-2011-07-07-om-18.57.25.png](/blog-rene-dohmen-site/images/posts/n7-netwerk-tuner-bekijken-via-boxee/Schermafbeelding-2011-07-07-om-18.57.25.png)
+![Schermafbeelding-2011-07-07-om-18.57.25.png](/images/posts/n7-netwerk-tuner-bekijken-via-boxee/Schermafbeelding-2011-07-07-om-18.57.25.png)
 
-![Schermafbeelding-2011-07-07-om-19.11.16.png](/blog-rene-dohmen-site/images/posts/n7-netwerk-tuner-bekijken-via-boxee/Schermafbeelding-2011-07-07-om-19.11.16.png)
+![Schermafbeelding-2011-07-07-om-19.11.16.png](/images/posts/n7-netwerk-tuner-bekijken-via-boxee/Schermafbeelding-2011-07-07-om-19.11.16.png)
 
 Om het geheel wat simpeler op een andere plek te kunnen gebruiken kun je
 ook dit gebruiken:

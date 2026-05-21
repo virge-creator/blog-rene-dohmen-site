@@ -78,4 +78,4 @@ installation disc image from within the new virtual machine. Then in the
 VMware Fusion menu click : Virtual Machine -\> Install VMware Tools and
 follow the on screen instructions.
 
-![OSX.png](/blog-rene-dohmen-site/images/posts/installing-os-x-10-7-in-vmware-fusion/OSX.png)
+![OSX.png](/images/posts/installing-os-x-10-7-in-vmware-fusion/OSX.png)

@@ -75,6 +75,6 @@ nicely :-)
 
 Hier een screenshot van een early development versie:
 
-![Screen-shot-2011-02-19-at-18.29.33-e1298137658348.png](/blog-rene-dohmen-site/images/posts/switching-views-on-orientation-change/Screen-shot-2011-02-19-at-18.29.33-e1298137658348.png)
+![Screen-shot-2011-02-19-at-18.29.33-e1298137658348.png](/images/posts/switching-views-on-orientation-change/Screen-shot-2011-02-19-at-18.29.33-e1298137658348.png)
 
-![Screen-shot-2011-02-19-at-18.47.17-e1298138525230.png](/blog-rene-dohmen-site/images/posts/switching-views-on-orientation-change/Screen-shot-2011-02-19-at-18.47.17-e1298138525230.png)
+![Screen-shot-2011-02-19-at-18.47.17-e1298138525230.png](/images/posts/switching-views-on-orientation-change/Screen-shot-2011-02-19-at-18.47.17-e1298138525230.png)

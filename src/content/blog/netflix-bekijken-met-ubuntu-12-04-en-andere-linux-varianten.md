@@ -35,5 +35,5 @@ Linux Mint 16 Petra, Linux Mint 15 Olivia, Linux Mint 14 Nadia, Linux
 Mint 13 Maya en Elementary OS 0.2 Luna. Fullscreen werkt bij mij alleen
 op de primary monitor. Verder werkt het super :)
 
-![Screenshot-from-2013-10-16-020726.png](/blog-rene-dohmen-site/images/posts/netflix-bekijken-met-ubuntu-12-04-en-andere-linux-varianten/Screenshot-from-2013-10-16-020726.png)
-![Screenshot-from-2013-10-16-023021.png](/blog-rene-dohmen-site/images/posts/netflix-bekijken-met-ubuntu-12-04-en-andere-linux-varianten/Screenshot-from-2013-10-16-023021.png)
+![Screenshot-from-2013-10-16-020726.png](/images/posts/netflix-bekijken-met-ubuntu-12-04-en-andere-linux-varianten/Screenshot-from-2013-10-16-020726.png)
+![Screenshot-from-2013-10-16-023021.png](/images/posts/netflix-bekijken-met-ubuntu-12-04-en-andere-linux-varianten/Screenshot-from-2013-10-16-023021.png)

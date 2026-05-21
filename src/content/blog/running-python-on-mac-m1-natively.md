@@ -48,7 +48,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 You can verify in activity viewer whether python is running in Rosetta 2 (Intel) or Apple mode:
 
-![activity-viewer.png](/blog-rene-dohmen-site/images/posts/running-python-on-mac-m1-natively/activity-viewer.png)
+![activity-viewer.png](/images/posts/running-python-on-mac-m1-natively/activity-viewer.png)
 
 Venvs that you used should be reinstalled.
 

@@ -15,7 +15,7 @@ letters weg. Ik heb dit probleem nu diverse malen gemeld bij de
 volkskrant; via de mail 2x en 1x door het invullen van een formulier op
 de site van de Volkskrant.
 
-![photo1-e1297600629593.png](/blog-rene-dohmen-site/images/posts/volkskrant-on-ipad-ocr-probleem/photo1-e1297600629593.png)
+![photo1-e1297600629593.png](/images/posts/volkskrant-on-ipad-ocr-probleem/photo1-e1297600629593.png)
 
 Tot op heden nog helemaal geen reactie mogen ontvangen en dat vind ik
 ronduit slecht. Ik had niet verwacht dat een app die op z'n manier geld

@@ -40,7 +40,7 @@ SSL certificate:
 5.  Click "Always Trust," even though this doesn't seem to do
     anything. And type your OSX user password.
 
-![Schermafbeelding-2014-08-30-om-00.40.57.png](/blog-rene-dohmen-site/images/posts/trust-a-self-signed-ssl-certificate-in-chrome/Schermafbeelding-2014-08-30-om-00.40.57.png)
+![Schermafbeelding-2014-08-30-om-00.40.57.png](/images/posts/trust-a-self-signed-ssl-certificate-in-chrome/Schermafbeelding-2014-08-30-om-00.40.57.png)
 
 That's it! Close Keychain Access and restart Chrome, and your
 self-signed certificate should be recognized now by the browser.

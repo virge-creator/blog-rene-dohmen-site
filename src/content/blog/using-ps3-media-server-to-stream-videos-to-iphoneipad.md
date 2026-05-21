@@ -20,7 +20,7 @@ serve it on the fly to a iPhone 3GS.
 Install PS3 Media Server:
 <https://code.google.com/p/ps3mediaserver/downloads/list>
 
-![tv1.png](/blog-rene-dohmen-site/images/posts/using-ps3-media-server-to-stream-videos-to-iphoneipad/tv1.png)
+![tv1.png](/images/posts/using-ps3-media-server-to-stream-videos-to-iphoneipad/tv1.png)
 
 I used PS3 Media Server 1.50.0 on Ubuntu 12.04. With the default
 settings all streams and conversion are done by VLC. I don't know if
@@ -31,7 +31,7 @@ can use a upnp/dnla mediaserver I was able to playback some .mp4 files
 (already in correct iPhone format), but it didn't start transcoding for
 divx or xvid movies.
 
-![srces1.png](/blog-rene-dohmen-site/images/posts/using-ps3-media-server-to-stream-videos-to-iphoneipad/srces1.png)
+![srces1.png](/images/posts/using-ps3-media-server-to-stream-videos-to-iphoneipad/srces1.png)
 
 It seems that PS3 Mediaserver uses some HTTP User Agent detection
 mechanisme and tries to load the best transcoding profiles based on the
@@ -84,10 +84,10 @@ Startup times are about 4 seconds for a channel switch for a channel
 with SD content.
 
 **Photoos running Airplayer on iPhone:**
-![IMG_20120126_020104.jpg](/blog-rene-dohmen-site/images/posts/using-ps3-media-server-to-stream-videos-to-iphoneipad/IMG_20120126_020104.jpg)
-![IMG_20120126_022845.jpg](/blog-rene-dohmen-site/images/posts/using-ps3-media-server-to-stream-videos-to-iphoneipad/IMG_20120126_022845.jpg)
+![IMG_20120126_020104.jpg](/images/posts/using-ps3-media-server-to-stream-videos-to-iphoneipad/IMG_20120126_020104.jpg)
+![IMG_20120126_022845.jpg](/images/posts/using-ps3-media-server-to-stream-videos-to-iphoneipad/IMG_20120126_022845.jpg)
 
 **Photoos running UPnPlay on Android (Nexus):**
 
-![foto-2.jpg](/blog-rene-dohmen-site/images/posts/using-ps3-media-server-to-stream-videos-to-iphoneipad/foto-2.jpg)
-![foto-1.jpg](/blog-rene-dohmen-site/images/posts/using-ps3-media-server-to-stream-videos-to-iphoneipad/foto-1.jpg)
+![foto-2.jpg](/images/posts/using-ps3-media-server-to-stream-videos-to-iphoneipad/foto-2.jpg)
+![foto-1.jpg](/images/posts/using-ps3-media-server-to-stream-videos-to-iphoneipad/foto-1.jpg)

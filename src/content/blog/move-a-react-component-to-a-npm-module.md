@@ -81,7 +81,7 @@ the build.
 
 You can see it in action here.
 
-![project-structure.png](/blog-rene-dohmen-site/images/posts/move-a-react-component-to-a-npm-module/project-structure.png)
+![project-structure.png](/images/posts/move-a-react-component-to-a-npm-module/project-structure.png)
 
 The bottom left terminal is running the distribution build, which auto reloads when files changes are detected. When
 it's done compiling/transpiling the right bottom terminal will notice the changes in the build and it will reload the

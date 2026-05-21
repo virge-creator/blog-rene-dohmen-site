@@ -49,7 +49,7 @@ wget http://airdownload.adobe.com/air/lin/download/latest/AdobeAIRInstaller.bin
 With Ubuntu 11.10 32 or 64 bit the installer just work. When running
 12.04 you will get an error about missing Gnome Keyring.
 
-![Schermafbeelding-2012-10-02-om-01.08.25.png](/blog-rene-dohmen-site/images/posts/installing-air-on-ubuntu-11-10-and-12-04/Schermafbeelding-2012-10-02-om-01.08.25.png)
+![Schermafbeelding-2012-10-02-om-01.08.25.png](/images/posts/installing-air-on-ubuntu-11-10-and-12-04/Schermafbeelding-2012-10-02-om-01.08.25.png)
 
 After some googling I found a forum with an solution; it involves
 creating some symlinks:

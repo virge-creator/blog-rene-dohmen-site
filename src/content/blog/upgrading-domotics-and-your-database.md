@@ -44,7 +44,7 @@ Verify you are on the correct version with:
 ```
 cmake --version
 ```
-![cmake-version.png](/blog-rene-dohmen-site/images/posts/upgrading-domotics-and-your-database/cmake-version.png)
+![cmake-version.png](/images/posts/upgrading-domotics-and-your-database/cmake-version.png)
 
 ### Remove previous Boost libraries
 Remove previous version with:

@@ -29,7 +29,7 @@ tune to the stream in under 1 sec, and a media server to convert the
 stream to other formats that can be used in the rest of the internal LAN
 when needed. (iPad/iPhone/other VLC users):
 
-![multicast-N7.png](/blog-rene-dohmen-site/images/posts/multicast-streaming-with-the-n7/multicast-N7.png)
+![multicast-N7.png](/images/posts/multicast-streaming-with-the-n7/multicast-N7.png)
 
 I had some problems on windows when using DHCP for the second network
 card (the DHCP server did fill in a gateway by default, I couldn't just

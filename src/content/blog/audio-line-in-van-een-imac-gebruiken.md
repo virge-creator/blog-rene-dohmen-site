@@ -11,7 +11,7 @@ status: 'published'
 Wat een gepiel. Ik steek iets in de audio input (mini jack line in) van
 mijn imac, ga naar volume settings in systeemvoorkeuren. Ik kan zien dat
 er geluid binnenkomt. Maar niet horen\...
-![Schermafbeelding-2011-08-18-om-00.08.21.png](/blog-rene-dohmen-site/images/posts/audio-line-in-van-een-imac-gebruiken/Schermafbeelding-2011-08-18-om-00.08.21.png)
+![Schermafbeelding-2011-08-18-om-00.08.21.png](/images/posts/audio-line-in-van-een-imac-gebruiken/Schermafbeelding-2011-08-18-om-00.08.21.png)
 
 Na wat zoekwerk, en veel mensen die proberen hun line in te gebruiken
 als microfoon input (lol) kwam ik gelukkig een tooltje tegen. Default

@@ -28,13 +28,13 @@ De rest van het platform is geheel webbased en kan nu al helemaal
 gebruikt worden voor het invoeren van algemene muziek theorie vragen en
 examens. Hieronder een aantal screenshots van hoe het eruit ziet.
 
-![Schermafbeelding-2011-07-02-om-18.04.30.png](/blog-rene-dohmen-site/images/posts/intervallen-genereren-met-mingus-en-lilypond/Schermafbeelding-2011-07-02-om-18.04.30.png)
+![Schermafbeelding-2011-07-02-om-18.04.30.png](/images/posts/intervallen-genereren-met-mingus-en-lilypond/Schermafbeelding-2011-07-02-om-18.04.30.png)
 
-![Schermafbeelding-2011-07-02-om-18.04.48.png](/blog-rene-dohmen-site/images/posts/intervallen-genereren-met-mingus-en-lilypond/Schermafbeelding-2011-07-02-om-18.04.48.png)
+![Schermafbeelding-2011-07-02-om-18.04.48.png](/images/posts/intervallen-genereren-met-mingus-en-lilypond/Schermafbeelding-2011-07-02-om-18.04.48.png)
 
-![Schermafbeelding-2011-07-02-om-18.05.21.png](/blog-rene-dohmen-site/images/posts/intervallen-genereren-met-mingus-en-lilypond/Schermafbeelding-2011-07-02-om-18.05.21.png)
+![Schermafbeelding-2011-07-02-om-18.05.21.png](/images/posts/intervallen-genereren-met-mingus-en-lilypond/Schermafbeelding-2011-07-02-om-18.05.21.png)
 
-![Schermafbeelding-2011-07-02-om-18.05.47.png](/blog-rene-dohmen-site/images/posts/intervallen-genereren-met-mingus-en-lilypond/Schermafbeelding-2011-07-02-om-18.05.47.png)
+![Schermafbeelding-2011-07-02-om-18.05.47.png](/images/posts/intervallen-genereren-met-mingus-en-lilypond/Schermafbeelding-2011-07-02-om-18.05.47.png)
 
 Notatie editor
 ==============
@@ -43,4 +43,4 @@ Ook hebben we een noteeditor die, geheel zonder extra plugins in de
 browser, gebruikt kan worden om notenschrift in te voeren mocht de
 bibliotheek met standaard materiaal hierin niet voorzien.
 
-![Schermafbeelding-2011-07-02-om-18.08.42.png](/blog-rene-dohmen-site/images/posts/intervallen-genereren-met-mingus-en-lilypond/Schermafbeelding-2011-07-02-om-18.08.42.png)
+![Schermafbeelding-2011-07-02-om-18.08.42.png](/images/posts/intervallen-genereren-met-mingus-en-lilypond/Schermafbeelding-2011-07-02-om-18.08.42.png)

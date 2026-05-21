@@ -24,7 +24,7 @@ Scheduler(db,dict(testtask=doTask))
 Now web2py will notice the call to Scheduler and it will create the
 needed tables. You can now use the app admin to enter the first task.
 
-![Screenshot-from-2012-12-08-002904.png](/blog-rene-dohmen-site/images/posts/using-the-web2py-scheduler-for-long-running-jobs/Screenshot-from-2012-12-08-002904.png)
+![Screenshot-from-2012-12-08-002904.png](/images/posts/using-the-web2py-scheduler-for-long-running-jobs/Screenshot-from-2012-12-08-002904.png)
 
 With your new task in there; you are almost ready. You can now start a
 new web2py instance that will run the tasks for you:
@@ -48,7 +48,7 @@ starting single-scheduler for "APP_NAME"...
 
 You will see your tasks being scheduled; it will look like this:
 
-![Screenshot-from-2012-12-08-010343.png](/blog-rene-dohmen-site/images/posts/using-the-web2py-scheduler-for-long-running-jobs/Screenshot-from-2012-12-08-010343.png)
+![Screenshot-from-2012-12-08-010343.png](/images/posts/using-the-web2py-scheduler-for-long-running-jobs/Screenshot-from-2012-12-08-010343.png)
 
 Some quick links
 ================

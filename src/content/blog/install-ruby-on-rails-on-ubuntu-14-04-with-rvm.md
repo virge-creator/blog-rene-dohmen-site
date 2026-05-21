@@ -86,7 +86,7 @@ Expected output:
 A screenshot of the running Rails install
 =========================================
 
-![Screenshot-from-2014-04-05-174156.png](/blog-rene-dohmen-site/images/posts/install-ruby-on-rails-on-ubuntu-14-04-with-rvm/Screenshot-from-2014-04-05-174156.png)
+![Screenshot-from-2014-04-05-174156.png](/images/posts/install-ruby-on-rails-on-ubuntu-14-04-with-rvm/Screenshot-from-2014-04-05-174156.png)
 
 rbenv
 =====

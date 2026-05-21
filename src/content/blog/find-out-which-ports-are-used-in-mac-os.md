@@ -20,7 +20,7 @@ netstat -plnt
 You could use the graphical port scanner, that's available from the Mac Network Utility program, on `127.0.0.1` or
 `localhost` to list the ports but that's slow and it doesn't show reliable info about the processes using it.
 
-![macos-port-scan.png](/blog-rene-dohmen-site/images/posts/find-out-which-ports-are-used-in-mac-os/macos-port-scan.png)
+![macos-port-scan.png](/images/posts/find-out-which-ports-are-used-in-mac-os/macos-port-scan.png)
 
 The weird thing is that netstat is actually installed but somehow the command line options differ subtly, like they
 also do for `dd` and `fdisk`. The best readable way I could find:

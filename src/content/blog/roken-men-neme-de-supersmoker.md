@@ -15,7 +15,7 @@ proberen. De voordelen zijn duidelijk; geen teer, geen CO2, geen nare
 luchtjes, prijzen van de cartridges zijn goedkoper dan normaal roken
 (ongeveer 50% van de kosten); Super dus.
 
-![foto.jpg](/blog-rene-dohmen-site/images/posts/roken-men-neme-de-supersmoker/foto.jpg)
+![foto.jpg](/images/posts/roken-men-neme-de-supersmoker/foto.jpg)
 
 Helaas ging de 1e kapot na 2 weken; gelukkig biedt supersmoker.nl
 uitstekende garantievoorwaarden. Dus kapotte supersmoker in envelop

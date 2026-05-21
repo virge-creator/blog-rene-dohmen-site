@@ -26,10 +26,10 @@ sudo apt-get install indicator-multiload
 Then you can start it with *indicator-multiload* It will integrate into
 the top panel. Nice\...
 
-![Screenshot-from-2012-12-04-224647.png](/blog-rene-dohmen-site/images/posts/tweaking-unity-in-ubuntu12-04/Screenshot-from-2012-12-04-224647.png)
+![Screenshot-from-2012-12-04-224647.png](/images/posts/tweaking-unity-in-ubuntu12-04/Screenshot-from-2012-12-04-224647.png)
 
 Another quit handy tool (a shame it isn't available in 12.10) -\>
 myUnity. It lets you tweak some of the settings with ease. It can
 quickly change font, theme desktop and dash appearance settings.
 
-![Screenshot-from-2012-12-04-235153.png](/blog-rene-dohmen-site/images/posts/tweaking-unity-in-ubuntu12-04/Screenshot-from-2012-12-04-235153.png)
+![Screenshot-from-2012-12-04-235153.png](/images/posts/tweaking-unity-in-ubuntu12-04/Screenshot-from-2012-12-04-235153.png)

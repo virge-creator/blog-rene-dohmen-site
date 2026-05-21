@@ -21,7 +21,7 @@ fouten in de teksten. 3x hoera dus. Ook een beetje verwarrend is het
 feit dat er meerdere apps bestaan die je ziet wanneer je zoekt op de
 volkskrant in de app store.
 
-![Schermafbeelding-2011-03-01-om-17.49.58-e1298999189144.png](/blog-rene-dohmen-site/images/posts/volkskrant-op-de-ipad/Schermafbeelding-2011-03-01-om-17.49.58-e1298999189144.png)
+![Schermafbeelding-2011-03-01-om-17.49.58-e1298999189144.png](/images/posts/volkskrant-op-de-ipad/Schermafbeelding-2011-03-01-om-17.49.58-e1298999189144.png)
 
 Je moet dus de "volkrant HD" app hebben van uitgever Persgroep -\> of
 klik

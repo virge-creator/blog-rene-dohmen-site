@@ -88,7 +88,7 @@ use an configurable product.
 
 It's also nice to use attribute groups when you have a large catalogus,
 when you want to create a page like this:
-![Schermafbeelding-2017-06-17-om-00.24.01.png](/blog-rene-dohmen-site/images/posts/magento2-categories-product-types-attribute-sets-and-groups/Schermafbeelding-2017-06-17-om-00.24.01.png)
+![Schermafbeelding-2017-06-17-om-00.24.01.png](/images/posts/magento2-categories-product-types-attribute-sets-and-groups/Schermafbeelding-2017-06-17-om-00.24.01.png)
 
 To get an idea of how the DB model looks:
-![Custom-Attribute-1.png](/blog-rene-dohmen-site/images/posts/magento2-categories-product-types-attribute-sets-and-groups/Custom-Attribute-1.png)
+![Custom-Attribute-1.png](/images/posts/magento2-categories-product-types-attribute-sets-and-groups/Custom-Attribute-1.png)

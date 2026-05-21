@@ -24,7 +24,7 @@ option. Just make a new project and the set up your asset server
 connectoion. The easiest way is to login first, then click the "Show
 Projects" button. Click on the project en choose connect.
 
-![asset-server1.png](/blog-rene-dohmen-site/images/posts/setup-unity3d-asset-server-on-linux/asset-server1.png)
+![asset-server1.png](/images/posts/setup-unity3d-asset-server-on-linux/asset-server1.png)
 
 For administrators
 ==================

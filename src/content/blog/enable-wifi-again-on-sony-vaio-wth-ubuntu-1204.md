@@ -12,9 +12,9 @@ After installing 12.04 on my vaio laptop everything was OK. But when I
 disabled the WIFI from the Ubuntu menu the wifi showed an message that
 it was turned off with the hardware switch.
 
-![Schermafdruk-van-2013-02-01-214524.png](/blog-rene-dohmen-site/images/posts/enable-wifi-again-on-sony-vaio-wth-ubuntu-1204/Schermafdruk-van-2013-02-01-214524.png)
+![Schermafdruk-van-2013-02-01-214524.png](/images/posts/enable-wifi-again-on-sony-vaio-wth-ubuntu-1204/Schermafdruk-van-2013-02-01-214524.png)
 
-![Schermafdruk-van-2013-02-01-214057.png](/blog-rene-dohmen-site/images/posts/enable-wifi-again-on-sony-vaio-wth-ubuntu-1204/Schermafdruk-van-2013-02-01-214057.png)
+![Schermafdruk-van-2013-02-01-214057.png](/images/posts/enable-wifi-again-on-sony-vaio-wth-ubuntu-1204/Schermafdruk-van-2013-02-01-214057.png)
 
 **The weird thing:** there is no hardware switch to turn off WIFI,
 neither does the BIOS have options for disabling the WIFI.

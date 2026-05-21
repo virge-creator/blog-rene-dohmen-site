@@ -13,7 +13,7 @@ manage a bunch of (different) Linux systems with one unified interface
 you can't work around it . It works with profiles and tags. Systems
 matching the tag in the profile can be automatically updated.
 
-![C3.2.2_03_manageinfo_medium.png](/blog-rene-dohmen-site/images/posts/ubuntu-landscape/C3.2.2_03_manageinfo_medium.png)
+![C3.2.2_03_manageinfo_medium.png](/images/posts/ubuntu-landscape/C3.2.2_03_manageinfo_medium.png)
 
 More interesting features:
 
@@ -87,14 +87,14 @@ Computers](https://landscape.canonical.com/account/qiosq/pending-computers)
 link. Accept the pending thingie. Then you will see the machine you just
 registered, as illustrated in this screen shot:
 
-![Schermafbeelding-2012-05-05-om-21.35.17.png](/blog-rene-dohmen-site/images/posts/ubuntu-landscape/Schermafbeelding-2012-05-05-om-21.35.17.png)
+![Schermafbeelding-2012-05-05-om-21.35.17.png](/images/posts/ubuntu-landscape/Schermafbeelding-2012-05-05-om-21.35.17.png)
 
-![Schermafbeelding-2012-05-05-om-21.35.45.png](/blog-rene-dohmen-site/images/posts/ubuntu-landscape/Schermafbeelding-2012-05-05-om-21.35.45.png)
+![Schermafbeelding-2012-05-05-om-21.35.45.png](/images/posts/ubuntu-landscape/Schermafbeelding-2012-05-05-om-21.35.45.png)
 
 Installing packages is easy:
 
-![Schermafbeelding-2012-05-05-om-21.24.51.png](/blog-rene-dohmen-site/images/posts/ubuntu-landscape/Schermafbeelding-2012-05-05-om-21.24.51.png)
+![Schermafbeelding-2012-05-05-om-21.24.51.png](/images/posts/ubuntu-landscape/Schermafbeelding-2012-05-05-om-21.24.51.png)
 
 With scripts enabled you can even run custom scripts from the webGUI:
 
-![Schermafbeelding-2012-05-05-om-21.20.46.png](/blog-rene-dohmen-site/images/posts/ubuntu-landscape/Schermafbeelding-2012-05-05-om-21.20.46.png)
+![Schermafbeelding-2012-05-05-om-21.20.46.png](/images/posts/ubuntu-landscape/Schermafbeelding-2012-05-05-om-21.20.46.png)

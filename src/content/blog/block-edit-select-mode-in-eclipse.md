@@ -15,7 +15,7 @@ above. The block selection mode can be toggled using the toolbar icon in
 the top of your editor or using the shortcut key **Alt+Shift+A**. Nice
 addition to the Eclipse editor.
 
-![Schermafbeelding-2011-08-19-om-15.23.03.png](/blog-rene-dohmen-site/images/posts/block-edit-select-mode-in-eclipse/Schermafbeelding-2011-08-19-om-15.23.03.png)
+![Schermafbeelding-2011-08-19-om-15.23.03.png](/images/posts/block-edit-select-mode-in-eclipse/Schermafbeelding-2011-08-19-om-15.23.03.png)
 
 I don't know the mac shortcuts. I tried a couple of them, but on a
 windows keyboard attached to my mac.

@@ -14,8 +14,8 @@ to find crashes that occur after a long time. I was playing with the
 idea of building a small lego robot that can be used to touch
 touchscreen applications on our all-in-ones.
 
-![IMG_0348.jpg](/blog-rene-dohmen-site/images/posts/fully-automated-touch-screen-testing-lego-mindstorms-robot-v1/IMG_0348.jpg)
-![IMG_0345.jpg](/blog-rene-dohmen-site/images/posts/fully-automated-touch-screen-testing-lego-mindstorms-robot-v1/IMG_0345.jpg)
+![IMG_0348.jpg](/images/posts/fully-automated-touch-screen-testing-lego-mindstorms-robot-v1/IMG_0348.jpg)
+![IMG_0345.jpg](/images/posts/fully-automated-touch-screen-testing-lego-mindstorms-robot-v1/IMG_0345.jpg)
 
 Video
 =====
