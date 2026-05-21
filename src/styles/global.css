@@ -53,6 +53,15 @@ body {
 .delay-4 { transition-delay: 0.4s; }
 .delay-5 { transition-delay: 0.5s; }
 
+/* Fallback: if JS hasn't run after 3s, show everything */
+@media (prefers-reduced-motion: reduce) {
+  .animate-in {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
 /* Hero image zoom-in on load */
 @keyframes hero-zoom {
   from { transform: scale(1.08); opacity: 0; }

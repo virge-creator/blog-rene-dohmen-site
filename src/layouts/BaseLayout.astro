@@ -99,6 +99,16 @@ const base = import.meta.env.BASE_URL;
       });
 
       // Scroll-reveal animations
+      const elements = document.querySelectorAll('.animate-in');
+
+      // Immediately reveal elements already in viewport (fixes content invisible on load)
+      elements.forEach((el) => {
+        const rect = el.getBoundingClientRect();
+        if (rect.top < window.innerHeight && rect.bottom > 0) {
+          el.classList.add('visible');
+        }
+      });
+
       const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
@@ -106,9 +116,13 @@ const base = import.meta.env.BASE_URL;
             observer.unobserve(entry.target);
           }
         });
-      }, { threshold: 0.15 });
+      }, { threshold: 0.05, rootMargin: '0px 0px 50px 0px' });
 
-      document.querySelectorAll('.animate-in').forEach((el) => observer.observe(el));
+      elements.forEach((el) => {
+        if (!el.classList.contains('visible')) {
+          observer.observe(el);
+        }
+      });
     </script>
   </body>
 </html>
