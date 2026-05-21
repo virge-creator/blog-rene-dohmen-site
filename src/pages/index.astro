@@ -14,14 +14,14 @@ const base = import.meta.env.BASE_URL;
     <div class="absolute inset-0 opacity-[0.03]" style={`background-image: url('${base}images/bg-pattern.png'); background-repeat: repeat; background-size: 300px;`}></div>
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
       <div class="text-center">
-        <h1 class="text-5xl md:text-7xl font-bold mb-6">
+        <h1 class="text-5xl md:text-7xl font-bold mb-6 animate-title">
           <span class="gradient-text">René Dohmen</span>
         </h1>
-        <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
+        <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto animate-subtitle">
           CEO of Formatics. Developer, Linux enthusiast, musician, and motorcyclist.
           Writing about code, life, and everything in between.
         </p>
-        <div class="flex flex-wrap justify-center gap-4">
+        <div class="flex flex-wrap justify-center gap-4 animate-meta">
           <a href={`${base}blog/`} class="px-8 py-3 bg-orange text-white font-semibold rounded-lg hover:bg-amber-600 transition-all hover:scale-105">
             Read the Blog
           </a>
@@ -35,7 +35,7 @@ const base = import.meta.env.BASE_URL;
 
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
     <div class="flex justify-between items-center mb-8">
-      <h2 class="text-3xl font-bold gradient-text">Recent Posts</h2>
+      <h2 class="text-3xl font-bold gradient-text animate-in">Recent Posts</h2>
       <a href={`${base}blog/`} class="text-orange hover:text-amber-500 transition-colors font-semibold">View All</a>
     </div>
 
@@ -56,7 +56,7 @@ const base = import.meta.env.BASE_URL;
 
   <section class="bg-gray-900 border-t border-gray-800 py-16">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-3xl font-bold gradient-text mb-8">Explore by Category</h2>
+      <h2 class="text-3xl font-bold gradient-text mb-8 animate-in">Explore by Category</h2>
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
         {['Computerz', 'Music', 'Life', 'Food', 'Personal'].map((cat) => {
           const count = allPosts.filter(p => p.data.category === cat).length;

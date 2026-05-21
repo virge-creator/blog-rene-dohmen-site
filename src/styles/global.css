@@ -19,6 +19,68 @@ body {
   @apply shadow-[0_0_20px_rgba(249,115,22,0.3)] scale-[1.02];
 }
 
+/* ===== Page load & scroll animations ===== */
+
+/* Initial state: hidden */
+.animate-in {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.animate-in.from-left {
+  transform: translateX(-32px);
+}
+
+.animate-in.from-right {
+  transform: translateX(32px);
+}
+
+.animate-in.scale-up {
+  transform: scale(0.95);
+}
+
+/* Visible state */
+.animate-in.visible {
+  opacity: 1;
+  transform: translateY(0) translateX(0) scale(1);
+}
+
+/* Stagger delays */
+.delay-1 { transition-delay: 0.1s; }
+.delay-2 { transition-delay: 0.2s; }
+.delay-3 { transition-delay: 0.3s; }
+.delay-4 { transition-delay: 0.4s; }
+.delay-5 { transition-delay: 0.5s; }
+
+/* Hero image zoom-in on load */
+@keyframes hero-zoom {
+  from { transform: scale(1.08); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.animate-hero-img {
+  animation: hero-zoom 0.8s ease-out forwards;
+}
+
+/* Title slide-up */
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-title {
+  animation: slide-up 0.6s ease-out 0.15s both;
+}
+
+.animate-subtitle {
+  animation: slide-up 0.6s ease-out 0.3s both;
+}
+
+.animate-meta {
+  animation: slide-up 0.5s ease-out 0.45s both;
+}
+
 /* Gradient text */
 .gradient-text {
   @apply bg-gradient-to-r from-orange to-amber-500 bg-clip-text text-transparent;
