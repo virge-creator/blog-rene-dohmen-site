@@ -337,4 +337,8 @@ Because modern attacks target:
 
 ...not the kernel. The attack surface has moved up the stack. Your security should too.
 
+## Further Reading
+
+- [Apple Platform Security: Protecting Against Malware](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/web) — Apple's official documentation on XProtect, Gatekeeper, Notarization, and the layered malware defense built into macOS.
+
 Stay safe out there. 🔐
