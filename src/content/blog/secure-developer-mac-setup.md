@@ -340,5 +340,6 @@ Because modern attacks target:
 ## Further Reading
 
 - [Apple Platform Security: Protecting Against Malware](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/web) — Apple's official documentation on XProtect, Gatekeeper, Notarization, and the layered malware defense built into macOS.
+- [Objective-See: Free macOS Security Tools](https://objective-see.org/tools.html) — Patrick Wardle's full collection of free, open-source macOS security tools including LuLu, BlockBlock, KnockKnock, and more.
 
 Stay safe out there. 🔐
