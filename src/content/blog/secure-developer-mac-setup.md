@@ -14,7 +14,7 @@ This guide is my attempt at a **realistic** security setup for a developer Mac. 
 
 ## The Core Insight: Egress Control
 
-On macOS, the single biggest improvement against supply-chain compromise is **egress control** — limiting what apps can talk to the internet and where they can connect.
+On macOS, the single biggest improvement against supply-chain compromise is **egress control**: limiting what apps can talk to the internet and where they can connect.
 
 A malicious dependency, npm package, poisoned update, or trojanized binary becomes far less useful if it:
 
@@ -56,7 +56,7 @@ Let's dive into each layer.
 
 What you'll catch:
 
-- `node` suddenly talks to `185.x.x.x` — a malicious npm package phoning home
+- `node` suddenly talks to `185.x.x.x`, a malicious npm package phoning home
 - A VSCode extension connects to a random VPS
 - A Python wheel downloads a payload from GitHub raw
 - Hidden updaters and unexpected telemetry
@@ -109,7 +109,7 @@ This single practice kills the majority of supply-chain attacks dead.
 
 These are two free tools from [Objective-See](https://objective-see.org/), the gold standard for macOS security:
 
-**KnockKnock** scans your Mac for persistently installed software — things that survive a reboot. Launch agents, login items, kernel extensions, browser plugins, cron jobs. Run it periodically and look for anything you don't recognize.
+**KnockKnock** scans your Mac for persistently installed software: things that survive a reboot. Launch agents, login items, kernel extensions, browser plugins, cron jobs. Run it periodically and look for anything you don't recognize.
 
 **BlockBlock** is the real-time version: it monitors persistence locations and alerts you the moment something tries to install itself permanently. If malware lands on your Mac, it almost certainly needs persistence. BlockBlock catches that moment.
 
@@ -137,7 +137,7 @@ BlockBlock watches all of these locations.
 - Newly registered domains (often malicious)
 - Cryptomining domains
 
-Supply-chain malware often dies here — it can't resolve the C2 domain, so it can't phone home.
+Supply-chain malware often dies here because it can't resolve the C2 domain, so it can't phone home.
 
 ```bash
 brew install nextdns
@@ -145,7 +145,7 @@ sudo nextdns install -config YOUR_CONFIG_ID
 sudo nextdns activate
 ```
 
-The free tier gives you 300,000 queries/month. The real power is in the logs — you can see exactly what every app on your system is resolving. [Control D](https://controld.com/) is another excellent option with more customization.
+The free tier gives you 300,000 queries/month. The real power is in the logs: you can see exactly what every app on your system is resolving. [Control D](https://controld.com/) is another excellent option with more customization.
 
 ## 5. Secrets: 1Password + YubiKey + Touch ID
 
@@ -266,15 +266,15 @@ Very important for:
 
 Good isolation options:
 
-- **Docker Desktop** / **OrbStack** — fast containers on Apple Silicon
-- **Lima** — lightweight Linux VMs
-- **UTM** — full VM emulation
-- **Parallels** — commercial option
+- **Docker Desktop** / **OrbStack**: fast containers on Apple Silicon
+- **Lima**: lightweight Linux VMs
+- **UTM**: full VM emulation
+- **Parallels**: commercial option
 
 For quick isolation:
 
 ```bash
-# Run untrusted code in a disposable container — no network!
+# Run untrusted code in a disposable container with no network!
 docker run --rm -it -v $(pwd):/code --network none python:3.12 bash
 ```
 
@@ -304,7 +304,7 @@ Your browser is the biggest attack surface on your machine. Use separate profile
 - **Dev/Research**: GitHub, Stack Overflow, docs
 - **Throwaway**: random links from chat, sketchy downloads (no logged-in accounts)
 
-In Chrome/Firefox, profiles are completely isolated — different cookies, extensions, history. A compromised session in one profile can't access another.
+In Chrome/Firefox, profiles are completely isolated: different cookies, extensions, history. A compromised session in one profile can't access another.
 
 ```
 Firefox tip: Use Firefox Multi-Account Containers for even more 
@@ -315,15 +315,15 @@ granular isolation within a single profile.
 
 If you only do three things from this list:
 
-1. **Install Little Snitch + block dev tools by default** — this kills most supply-chain attacks
-2. **Use 1Password for secrets** — stop putting keys in .env files  
-3. **Separate browser profiles** — don't browse sketchy links where you're logged into AWS
+1. **Install Little Snitch + block dev tools by default**: this kills most supply-chain attacks
+2. **Use 1Password for secrets**: stop putting keys in .env files  
+3. **Separate browser profiles**: don't browse sketchy links where you're logged into AWS
 
 That alone puts you ahead of 90% of developers.
 
 ## The Mindset Shift
 
-The most effective change isn't a tool — it's a mindset:
+The most effective change isn't a tool. It's a mindset:
 
 > **Treat developer tooling as untrusted internet-facing software.**
 
@@ -339,7 +339,7 @@ Because modern attacks target:
 
 ## Further Reading
 
-- [Apple Platform Security: Protecting Against Malware](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/web) — Apple's official documentation on XProtect, Gatekeeper, Notarization, and the layered malware defense built into macOS.
-- [Objective-See: Free macOS Security Tools](https://objective-see.org/tools.html) — Patrick Wardle's full collection of free, open-source macOS security tools including LuLu, BlockBlock, KnockKnock, and more.
+- [Apple Platform Security: Protecting Against Malware](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/web): Apple's official documentation on XProtect, Gatekeeper, Notarization, and the layered malware defense built into macOS.
+- [Objective-See: Free macOS Security Tools](https://objective-see.org/tools.html): Patrick Wardle's full collection of free, open-source macOS security tools including LuLu, BlockBlock, KnockKnock, and more.
 
 Stay safe out there. 🔐
