@@ -8,13 +8,13 @@ thumbnail: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800'
 status: 'published'
 ---
 
-Three weeks on the campaign. Tight copy, page that converts, budget approved. Then someone drops the link in Slack and it unfurls as a sad grey box with a chopped-off URL and no image. 💀
+You know the failure mode: you paste a link into Slack or iMessage and the preview comes up as a grey box with a chopped-off URL and no image. That's a broken `og:image`. It's one of those things that's invisible until the exact moment it's embarrassing.
 
-That's an `og:image` fail. And here's the thing nobody wants to hear: **the image is the campaign.** Before anyone reads a word of your copy, they see a card. Nail the card or none of the rest matters. So let's nail it.
+The fix is almost always the same handful of meta tags plus one specific image size. This is the checklist I run on every site before a link goes out, and the mistakes I keep seeing.
 
 ## The number: 1200 x 630
 
-Memorize it. Write it on your monitor. Ratio is **1.91:1**, and 1200x630 is the smallest size that stays crisp on retina and works literally everywhere. Smaller than 600x315 and Facebook/LinkedIn demote you to a tiny thumbnail. Don't get demoted.
+Ratio is **1.91:1**, and 1200x630 is the smallest size that stays crisp on retina and works everywhere. Go below 600x315 and Facebook/LinkedIn drop you to a tiny thumbnail instead of the big card.
 
 ## The tags that actually matter
 
@@ -31,7 +31,7 @@ Three ways people shoot themselves in the foot, every single time:
 
 - **`property`, not `name`.** Open Graph uses `property=`. Get it wrong and the tag does nothing, silently.
 - **Absolute `https://` URL.** A relative `/og/launch.png` works in your browser and dies in every unfurler. This is the #1 bug.
-- **Declare width + height.** It makes the card render *instantly* on the first share instead of flashing a blank box while the scraper re-measures. On launch day, first impressions are the only impressions.
+- **Declare width + height.** It makes the card render *instantly* on the first share instead of flashing a blank box while the scraper re-measures. The first share is usually the one that gets seen, so you want it right immediately.
 
 And `twitter:card = summary_large_image` is what gets you the big banner on X instead of a sad little square.
 
@@ -68,4 +68,4 @@ Hand-cropping a card per landing page doesn't scale. Generate them: **`@vercel/o
 - [ ] PNG/JPG, under ~1MB
 - [ ] re-scraped fresh in the FB Debugger **before** the first real share
 
-Six lines. The campaign lives or dies on whether you do them. To create problemz for solutions, right? This one's invisible until it's embarrassing, and trivial once you know the number. 1200x630. Go.
+Six checks, none of them hard, and skipping any one is how you end up with the grey box. To create problemz for solutions, right? This one's trivial once you know the number. 1200x630.
