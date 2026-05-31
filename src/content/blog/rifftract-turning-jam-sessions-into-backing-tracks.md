@@ -4,7 +4,7 @@ date: '2026-05-31 10:00'
 author: 'acidjunk'
 category: ['Music', 'Computerz']
 tags: ["Computerz","python","javascript","music","tutorial","docker"]
-thumbnail: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=800'
+thumbnail: '/images/posts/rifftract/after-analyze.png'
 status: 'published'
 ---
 
@@ -13,6 +13,18 @@ Every band has the same problem. You spend three hours in a rehearsal room, the 
 So I built a thing. It's called **Rifftract**, it lives over at [virge-io/rifftract](https://github.com/virge-io/rifftract), and the docs are surprisingly complete for a weekend-brain project, so I figured it deserved a proper write-up. The short version: you drop in a rehearsal recording, it finds the repeated/musically interesting bits automatically, draws them on a waveform, and lets you export any region as a looped backing track. Practice material falls out the other end.
 
 This post is a tour of how it's built, because honestly the architecture is the fun part, and because there are some genuinely great open source libraries doing the heavy lifting that deserve a shout out.
+
+## From a three-minute jam to 12 riffs, in one click
+
+Here's the entire pitch in two screenshots. You drop in a recording (this is "Paranoid.mp3", 3:15 of it), and you get a waveform and a very empty riff list:
+
+![Rifftract before analysis: Paranoid.mp3 loaded, full waveform shown, zero riffs detected yet](/images/posts/rifftract/before-analyze.png)
+
+Then you hit **Analyze riffs**. A few seconds later Rifftract has worked out the tempo (162 BPM), the key (E major) and the genre (alt rock), carved the track into colour-coded regions, and handed you **12 labelled riffs**. Each one comes with a name, a bar count, a "coolness" score, a harmonic-niceness percentage and the actual chords:
+
+![Rifftract after analysis: 162 BPM, E major, alt rock detected, with 12 named and scored riff cards listed below the waveform](/images/posts/rifftract/after-analyze.png)
+
+That's the whole thing. One click, twelve practice-ready loops, zero scrubbing. Every card exports straight to a looped backing track. Now let's look at how it pulls that off.
 
 ## The big picture
 
