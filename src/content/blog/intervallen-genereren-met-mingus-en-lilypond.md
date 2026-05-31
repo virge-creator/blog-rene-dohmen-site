@@ -2,8 +2,8 @@
 title: 'Intervallen genereren met mingus en lilypond'
 date: '2011-07-02 16:36'
 author: 'acidjunk'
-category: 'Computerz, Muziek'
-tags: ["Computerz, Muziek","python","music"]
+category: ['Computerz', 'Music']
+tags: ["Computerz","python","music"]
 thumbnail: '/images/thumbnails/music.jpg'
 status: 'published'
 ---
