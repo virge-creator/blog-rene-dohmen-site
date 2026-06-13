@@ -10,7 +10,7 @@ status: 'published'
 
 Yes, the header image is actual tofu. Blocks, neatly stacked, ready to be composed into something bigger. That's the whole pitch really.
 
-You know the failure mode with infrastructure: it gets built once, by hand, in the AWS console, by someone who left the company. Two years later nobody dares to touch the security groups and the staging environment is "sort of like production, we think". Infrastructure as code fixes that, and since the Terraform license drama, [OpenTofu](https://opentofu.org/) is the fork I reach for. Same HCL, same providers, same muscle memory, but actually open source. You type `tofu` instead of `terraform` and that's about it.
+You know the failure mode with infrastructure: it gets built once, by hand, in the AWS console, by someone who left the company. Two years later nobody dares to touch the security groups and the staging environment is "sort of like production, we think". Infrastructure as code fixes that, and since the Terraform license drama, [OpenTofu](https://opentofu.org/) is the fork we run everything on at [Virge](https://virge.io). Same HCL, same providers, same muscle memory, but actually open source. You type `tofu` instead of `terraform` and that's about it.
 
 This post is the setup I run a real project on: **Cognito** for auth, **ElastiCache** for Redis (well, Valkey), and **ECS Fargate** for the containers. Plus the part most tutorials skip: how you update the thing every day without crying.
 
