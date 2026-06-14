@@ -4,7 +4,7 @@ date: '2014-06-20 12:00'
 author: 'acidjunk'
 category: ['Recipes']
 tags: ["Recipes","grootmoeder","recept"]
-thumbnail: '/images/recipes/fallback/stew.jpg'
+thumbnail: '/images/recipes/fallback/red-cabbage-braised.jpg'
 needsPhoto: true
 status: 'published'
 ---

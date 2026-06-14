@@ -4,7 +4,7 @@ date: '2020-12-24 12:00'
 author: 'acidjunk'
 category: ['Recipes']
 tags: ["Recipes","snacks","kroketten","frituren","recept"]
-thumbnail: '/images/recipes/fallback/fish.jpg'
+thumbnail: '/images/recipes/fallback/croquettes.jpg'
 needsPhoto: true
 status: 'published'
 ---

@@ -4,7 +4,7 @@ date: '2019-03-09 12:00'
 author: 'acidjunk'
 category: ['Recipes']
 tags: ["Recipes","paleo","zoet","bakken","recept"]
-thumbnail: '/images/recipes/fallback/sweet.jpg'
+thumbnail: '/images/recipes/fallback/blueberry-muffins.jpg'
 needsPhoto: true
 status: 'published'
 ---

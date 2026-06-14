@@ -4,7 +4,7 @@ date: '2015-07-05 12:00'
 author: 'acidjunk'
 category: ['Recipes']
 tags: ["Recipes","aziatisch","grootmoeder","salade","recept"]
-thumbnail: '/images/recipes/fallback/salad.jpg'
+thumbnail: '/images/recipes/fallback/thai-noodle-salad.jpg'
 needsPhoto: true
 status: 'published'
 ---

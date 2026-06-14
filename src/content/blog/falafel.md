@@ -4,7 +4,7 @@ date: '2015-12-24 12:00'
 author: 'acidjunk'
 category: ['Recipes']
 tags: ["Recipes","vegetarisch","recept"]
-thumbnail: '/images/recipes/fallback/hummus.jpg'
+thumbnail: '/images/recipes/fallback/falafel.jpg'
 needsPhoto: true
 status: 'published'
 ---

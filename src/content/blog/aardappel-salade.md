@@ -4,7 +4,7 @@ date: '2024-07-01 12:00'
 author: 'acidjunk'
 category: ['Recipes']
 tags: ["Recipes","grootmoeder","salade","recept"]
-thumbnail: '/images/recipes/fallback/salad.jpg'
+thumbnail: '/images/recipes/fallback/potato-salad.jpg'
 needsPhoto: true
 status: 'published'
 ---

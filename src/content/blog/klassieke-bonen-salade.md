@@ -4,7 +4,7 @@ date: '2016-07-01 12:00'
 author: 'acidjunk'
 category: ['Recipes']
 tags: ["Recipes","grootmoeder","paleo","salade","recept"]
-thumbnail: '/images/recipes/fallback/salad.jpg'
+thumbnail: '/images/recipes/fallback/green-bean-salad.jpg'
 needsPhoto: true
 status: 'published'
 ---

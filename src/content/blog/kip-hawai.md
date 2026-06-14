@@ -4,7 +4,7 @@ date: '2017-09-02 12:00'
 author: 'acidjunk'
 category: ['Recipes']
 tags: ["Recipes","saus","paleo","kip","recept"]
-thumbnail: '/images/recipes/fallback/chicken.jpg'
+thumbnail: '/images/recipes/fallback/hawaiian-chicken.jpg'
 needsPhoto: true
 status: 'published'
 ---

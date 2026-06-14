@@ -4,7 +4,7 @@ date: '2016-04-03 12:00'
 author: 'acidjunk'
 category: ['Recipes']
 tags: ["Recipes","paleo","vegetarisch","salade","recept"]
-thumbnail: '/images/recipes/fallback/salad.jpg'
+thumbnail: '/images/recipes/fallback/waldorf-salad.jpg'
 needsPhoto: true
 status: 'published'
 ---

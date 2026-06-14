@@ -4,7 +4,7 @@ date: '2018-04-28 12:00'
 author: 'acidjunk'
 category: ['Recipes']
 tags: ["Recipes","grootmoeder","paleo","salade","recept"]
-thumbnail: '/images/recipes/fallback/salad.jpg'
+thumbnail: '/images/recipes/fallback/cauliflower-salad.jpg'
 needsPhoto: true
 status: 'published'
 ---

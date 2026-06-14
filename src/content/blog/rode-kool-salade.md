@@ -4,7 +4,7 @@ date: '2017-09-01 12:00'
 author: 'acidjunk'
 category: ['Recipes']
 tags: ["Recipes","salade","grootmoeder","paleo","recept"]
-thumbnail: '/images/recipes/fallback/salad.jpg'
+thumbnail: '/images/recipes/fallback/red-cabbage-slaw.jpg'
 needsPhoto: true
 status: 'published'
 ---

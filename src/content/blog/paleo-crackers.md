@@ -4,7 +4,7 @@ date: '2016-10-15 12:00'
 author: 'acidjunk'
 category: ['Recipes']
 tags: ["Recipes","paleo","bakken","recept"]
-thumbnail: '/images/recipes/fallback/bread.jpg'
+thumbnail: '/images/recipes/fallback/crackers.jpg'
 needsPhoto: true
 status: 'published'
 ---

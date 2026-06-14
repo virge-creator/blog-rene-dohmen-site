@@ -4,7 +4,7 @@ date: '2015-12-24 12:00'
 author: 'acidjunk'
 category: ['Recipes']
 tags: ["Recipes","paleo","dressing","recept"]
-thumbnail: '/images/recipes/fallback/salad.jpg'
+thumbnail: '/images/recipes/fallback/caesar-salad.jpg'
 needsPhoto: true
 status: 'published'
 ---
