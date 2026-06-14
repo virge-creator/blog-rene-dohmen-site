@@ -5,7 +5,7 @@ author: 'acidjunk'
 category: ['Recipes']
 tags: ["Recipes","italiaans","grootmoeder","pasta","recept"]
 thumbnail: '/images/recipes/fallback/pasta.jpg'
-needsPhoto: true
+needsPhoto: false
 status: 'published'
 ---
 
