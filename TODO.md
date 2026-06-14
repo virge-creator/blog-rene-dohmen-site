@@ -46,6 +46,7 @@ To finish one:
 - [x] Spaghetti Aglio, Olio e Peperoncino (`spaghetti-aglio-olio-e-peperoncino`)
 - [x] Spaghetti alla Carbonara (`spaghetti-alla-carbonara`)
 - [ ] Stoofvlees uit de tajine (`stoofvlees-uit-tajine`)
+- [ ] Surinaamse bami (`surinaamse-bami`)
 - [ ] Thaise mihoen salade (`thaise-mihoen-salade`)
 - [ ] Tomatensoep (`tomaten-soep`)
 - [ ] Wafels (`wafel`)
