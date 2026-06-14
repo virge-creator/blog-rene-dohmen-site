@@ -26,9 +26,9 @@ Een stevig roggebrood op desem met een voordeeg en een hoofddeeg. A hearty rye b
 - 150 tot 165 gram water
 
 ### Bereiding
-Maak het voordeeg door de ingrediënten bij elkaar te doen en goed te roeren. Dek af en laat rusten.
+Maak het voordeeg door de ingrediënten bij elkaar te doen en goed te roeren. Dek af en laat minimaal 8 uur rusten.
 
-Voeg daarna de ingrediënten van het hoofddeeg toe aan het gerezen voordeeg en kneed alles tot een plakkerig deeg. Dek af en laat ongeveer 1,5 tot 2 uur rijzen. Stort het deeg uit, vorm er een bol van of doe het in een ingevette bakblik en laat nog ongeveer 1 uur narijzen. Bak het brood in een voorverwarmde oven op 220 graden C, ongeveer 40 tot 45 minuten, tot het hol klinkt als je op de onderkant tikt. Dit is een basisrichtlijn, speel gerust met tijden en hydratatie naar eigen smaak.
+Voeg daarna de ingrediënten van het hoofddeeg toe aan het gerezen voordeeg en kneed alles tot een plakkerig deeg. Dek af en laat ongeveer 1,5 tot 2 uur rijzen. Stort het deeg uit, vorm er een bol van of doe het in een rijsmandje en laat nog ongeveer 1 uur narijzen. Bak het brood in een voorverwarmde oven op 220 graden C, ongeveer 15 minuten terwijl je de temperatuur direct naar 250 zet, dan 45 tot 55 minuten op 180. Het is gaar wanneer het hol klinkt als je op de onderkant tikt. Dit is een basisrichtlijn, speel gerust met tijden en hydratatie naar eigen smaak.
 
 ## English 🇬🇧
 
@@ -45,6 +45,6 @@ Voeg daarna de ingrediënten van het hoofddeeg toe aan het gerezen voordeeg en k
 - 5 to 6 oz water
 
 ### Method
-Make the pre-dough by putting the ingredients together and stirring well. Cover and let it rest.
+Make the pre-dough by putting the ingredients together and stirring well. Cover and let it rest for at least 8 hours.
 
-Then add the main dough ingredients to the risen pre-dough and knead everything to a sticky dough. Cover and let it prove for about 1.5 to 2 hours. Tip the dough out, shape it into a boule or place it in a greased loaf tin, and let it prove again for about 1 hour. Bake the bread in a preheated oven at 220 C (425 F) for roughly 40 to 45 minutes, until it sounds hollow when you tap the bottom. This is a basic guide, feel free to play with the timing and hydration to your own taste.
+Then add the main dough ingredients to the risen pre-dough and knead everything to a sticky dough. Cover and let it prove for about 1.5 to 2 hours. Tip the dough out, shape it into a boule or place it in a proving basket, and let it prove again for about 1 hour. Bake the bread in a preheated oven at 220 C (425 F) for about 15 minutes while you turn the temperature straight up to 250 C (480 F), then 45 to 55 minutes at 180 C (350 F). It's done when it sounds hollow when you tap the bottom. This is a basic guide, feel free to play with the timing and hydration to your own taste.
