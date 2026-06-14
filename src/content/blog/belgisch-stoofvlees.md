@@ -5,7 +5,7 @@ author: 'acidjunk'
 category: ['Recipes']
 tags: ["Recipes","grootmoeder","stoofvlees","recept"]
 thumbnail: '/images/recipes/fallback/stew.jpg'
-needsPhoto: true
+needsPhoto: false
 status: 'published'
 ---
 

@@ -5,7 +5,7 @@ author: 'acidjunk'
 category: ['Recipes']
 tags: ["Recipes","vegetarisch","soep","recept"]
 thumbnail: '/images/recipes/fallback/soup.jpg'
-needsPhoto: true
+needsPhoto: false
 status: 'published'
 ---
 

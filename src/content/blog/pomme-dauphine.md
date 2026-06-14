@@ -5,7 +5,7 @@ author: 'acidjunk'
 category: ['Recipes']
 tags: ["Recipes","grootmoeder","aardappel","recept"]
 thumbnail: '/images/recipes/fallback/potato.jpg'
-needsPhoto: true
+needsPhoto: false
 status: 'published'
 ---
 

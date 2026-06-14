@@ -5,7 +5,7 @@ author: 'acidjunk'
 category: ['Recipes']
 tags: ["Recipes","snel","soep","recept"]
 thumbnail: '/images/recipes/fallback/soup.jpg'
-needsPhoto: true
+needsPhoto: false
 status: 'published'
 ---
 
