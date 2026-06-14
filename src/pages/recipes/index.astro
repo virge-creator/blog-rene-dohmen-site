@@ -1,0 +1,136 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const base = import.meta.env.BASE_URL;
+
+const recipes = (await getCollection('blog', ({ data }) => data.status === 'published'))
+  .filter((post) => post.data.category.includes('Recipes'))
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+const needPhoto = recipes.filter((r) => r.data.needsPhoto);
+const havePhoto = recipes.length - needPhoto.length;
+
+// Pull a short lead from the body: first real sentence, no headings/markdown/emoji.
+function lead(body: string): string {
+  const line = body
+    .split('\n')
+    .map((l) => l.trim())
+    .find((l) => l && !l.startsWith('#') && !l.startsWith('-') && !l.startsWith('!'));
+  if (!line) return '';
+  const clean = line.replace(/[#*`>]/g, '').replace(/\s+/g, ' ').trim();
+  return clean.length > 140 ? clean.slice(0, 140).trimEnd() + '...' : clean;
+}
+
+function img(thumbnail?: string): string | undefined {
+  if (!thumbnail) return undefined;
+  return thumbnail.startsWith('http') ? thumbnail : `${base}${thumbnail.replace(/^\//, '')}`;
+}
+---
+
+<BaseLayout title="Recipes" description="Bilingual recipes (NL + EN) from René Dohmen's kitchen, migrated from the old food blog.">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <!-- Header -->
+    <header class="mb-10">
+      <h1 class="text-5xl font-bold mb-4 gradient-text">Recipes</h1>
+      <p class="text-xl text-gray-400 max-w-3xl">
+        Grandma classics, paleo experiments and lazy weeknight wins, rescued from my old food blog.
+        Every recipe is bilingual: Dutch first, then English with the measurements converted to cups,
+        ounces and Fahrenheit.
+      </p>
+    </header>
+
+    <!-- Photo management strip -->
+    <div class="mb-12 rounded-xl border border-gray-800 bg-gray-900 p-6">
+      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+        <div class="flex flex-wrap items-center gap-6">
+          <div>
+            <div class="text-3xl font-bold text-white">{recipes.length}</div>
+            <div class="text-sm text-gray-400">recipes</div>
+          </div>
+          <div>
+            <div class="text-3xl font-bold text-green-400">{havePhoto}</div>
+            <div class="text-sm text-gray-400">with a real photo</div>
+          </div>
+          <div>
+            <div class="text-3xl font-bold text-amber-400">{needPhoto.length}</div>
+            <div class="text-sm text-gray-400">still on a stock fallback</div>
+          </div>
+        </div>
+        <div class="text-sm text-gray-400 max-w-xs">
+          Cards marked <span class="text-amber-400 font-semibold">Needs photo</span> use a stock image.
+          Drop a real shot in <code class="text-orange">/images/recipes/</code> and set
+          <code class="text-orange">needsPhoto: false</code>.
+        </div>
+      </div>
+
+      <!-- Progress bar -->
+      <div class="mt-5">
+        <div class="h-2 w-full rounded-full bg-gray-800 overflow-hidden">
+          <div
+            class="h-full bg-green-500 rounded-full"
+            style={`width: ${recipes.length ? Math.round((havePhoto / recipes.length) * 100) : 0}%`}
+          >
+          </div>
+        </div>
+      </div>
+
+      {needPhoto.length > 0 && (
+        <details class="mt-5 group">
+          <summary class="cursor-pointer text-sm font-semibold text-amber-400 hover:text-amber-300">
+            Show the {needPhoto.length} recipes still waiting for a photo
+          </summary>
+          <ul class="mt-3 flex flex-wrap gap-2">
+            {needPhoto.map((r) => (
+              <li>
+                <a
+                  href={`${base}${r.slug}/`}
+                  class="inline-block px-3 py-1 text-xs bg-gray-800 text-gray-300 rounded-full hover:bg-gray-700 hover:text-orange transition-colors"
+                >
+                  {r.data.title.split(' / ')[0]}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </details>
+      )}
+    </div>
+
+    <!-- Recipe grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {recipes.map((recipe) => (
+        <article class="bg-gray-900 rounded-lg overflow-hidden border border-gray-800 card-glow h-full flex flex-col animate-in">
+          <a href={`${base}${recipe.slug}/`} class="block relative aspect-video w-full overflow-hidden">
+            <img
+              src={img(recipe.data.thumbnail)}
+              alt={recipe.data.title}
+              class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+              loading="lazy"
+            />
+            {recipe.data.needsPhoto && (
+              <span class="absolute top-2 right-2 px-2 py-1 text-xs font-semibold bg-amber-500/90 text-black rounded-full shadow">
+                📷 Needs photo
+              </span>
+            )}
+          </a>
+
+          <div class="p-6 flex-1 flex flex-col">
+            <h2 class="text-xl font-bold mb-2 text-white hover:text-orange transition-colors">
+              <a href={`${base}${recipe.slug}/`}>{recipe.data.title}</a>
+            </h2>
+
+            <p class="text-gray-300 mb-4 flex-1 line-clamp-3">{lead(recipe.body)}</p>
+
+            {recipe.data.tags.length > 0 && (
+              <div class="flex flex-wrap gap-2 mt-auto pt-4 border-t border-gray-800">
+                {recipe.data.tags.filter((t) => t !== 'Recipes' && t !== 'recept').slice(0, 3).map((tag) => (
+                  <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">{tag}</span>
+                ))}
+              </div>
+            )}
+          </div>
+        </article>
+      ))}
+    </div>
+  </div>
+</BaseLayout>
