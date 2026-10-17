@@ -40,6 +40,7 @@ Een echte tajineklassieker die ook prima in een gewone pan met deksel lukt. De e
 
 **Optioneel**
 - 3 à 4 eieren
+- 1 courgette, in blokjes
 - verse peterselie of koriander om te garneren
 
 ### Bereiding
@@ -54,6 +55,8 @@ Wil je er eieren bij? Maak dan 10 minuten voor het opdienen met een lepel kuiltj
 Bestrooi met verse peterselie of koriander en zet de tajine zo op tafel. Lekker met naanbrood of rijst.
 
 Tip: een scheutje citroensap of een lepel harissa door de saus maakt hem net wat spannender.
+
+Wil je er wat groente bij? Roer aan het einde, zo'n 10 minuten voor het opdienen, een in blokjes gesneden courgette door de saus. Dan is hij gaar maar heeft hij nog wat bite.
 
 ## English 🇬🇧
 
@@ -84,6 +87,7 @@ A real tagine classic that works just as well in an ordinary pan with a lid. The
 
 **Optional**
 - 3 to 4 eggs
+- 1 courgette (zucchini), diced
 - fresh parsley or coriander (cilantro) for garnish
 
 ### Method
@@ -98,3 +102,5 @@ Want eggs with it? Then 10 minutes before serving, use a spoon to make little we
 Sprinkle with fresh parsley or coriander and bring the tagine straight to the table. Lovely with naan bread or rice.
 
 Tip: a squeeze of lemon juice or a spoonful of harissa stirred through the sauce makes it just that bit more exciting.
+
+Want some veg in there? Towards the end, about 10 minutes before serving, stir a diced courgette through the sauce. It will be cooked but still have a bit of bite.
