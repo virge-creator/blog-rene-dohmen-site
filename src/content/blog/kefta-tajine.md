@@ -24,6 +24,7 @@ Een echte tajineklassieker die ook prima in een gewone pan met deksel lukt. De e
 - flinke bos peterselie, fijngehakt
 - 1 tl komijn
 - 1 tl paprikapoeder
+- 1 tl ras el hanout (optioneel, maar wel lekker)
 - zout en peper
 
 **Voor de saus**
@@ -33,6 +34,7 @@ Een echte tajineklassieker die ook prima in een gewone pan met deksel lukt. De e
 - 4 à 5 tomaten, fijngesneden
 - 1 tl paprikapoeder
 - 1 tl komijn
+- 1 tl ras el hanout (optioneel, maar wel lekker)
 - zout en peper
 - 250 ml water
 
@@ -43,7 +45,7 @@ Een echte tajineklassieker die ook prima in een gewone pan met deksel lukt. De e
 ### Bereiding
 Meng alle ingrediënten voor de kefta goed door elkaar en draai er kleine balletjes van, iets kleiner dan een walnoot. Je hebt nu twee opties: je bakt ze eerst 10 tot 15 minuten aan in de oven op 200 graden tot ze bruin zijn, of je legt ze straks rauw in de saus. Aanbakken geeft wat meer smaak en de balletjes blijven mooier heel, rauw erin is wat zachter van bite en scheelt een stap. Allebei prima.
 
-Verhit ondertussen de olijfolie in de tajine (of een brede pan met deksel) en fruit de uien zacht en glazig. Voeg de knoflook, paprikapoeder en komijn toe en bak een minuutje mee tot het begint te geuren. Doe de tomaten erbij met zout, peper en het water. Laat de saus met de deksel erop zo'n 15 minuten zachtjes pruttelen tot de tomaten uit elkaar vallen.
+Verhit ondertussen de olijfolie in de tajine (of een brede pan met deksel) en fruit de uien zacht en glazig. Voeg de knoflook, paprikapoeder, komijn en eventueel de ras el hanout toe en bak een minuutje mee tot het begint te geuren. Doe de tomaten erbij met zout, peper en het water. Laat de saus met de deksel erop zo'n 15 minuten zachtjes pruttelen tot de tomaten uit elkaar vallen.
 
 Leg de balletjes in de saus met genoeg ruimte ertussen en laat nog eens 15 tot 20 minuten pruttelen met de deksel erop. Rauwe balletjes hebben eerder 25 minuten nodig.
 
@@ -66,6 +68,7 @@ A real tagine classic that works just as well in an ordinary pan with a lid. The
 - a big bunch of parsley, finely chopped
 - 1 tsp cumin
 - 1 tsp paprika
+- 1 tsp ras el hanout (optional, but very nice)
 - salt and pepper
 
 **For the sauce**
@@ -75,6 +78,7 @@ A real tagine classic that works just as well in an ordinary pan with a lid. The
 - 4 to 5 tomatoes, finely diced
 - 1 tsp paprika
 - 1 tsp cumin
+- 1 tsp ras el hanout (optional, but very nice)
 - salt and pepper
 - 1 cup water
 
@@ -85,7 +89,7 @@ A real tagine classic that works just as well in an ordinary pan with a lid. The
 ### Method
 Mix all the kefta ingredients together well and roll into small balls, a bit smaller than a walnut. You now have two options: brown them first in the oven at 200°C (400°F) for 10 to 15 minutes, or drop them into the sauce raw later on. Browning gives a bit more flavour and the balls hold together better, raw gives a softer bite and saves a step. Both are fine.
 
-Meanwhile heat the olive oil in the tagine (or a wide pan with a lid) and gently fry the onions until soft and translucent. Add the garlic, paprika and cumin and fry for a minute until fragrant. Add the tomatoes along with salt, pepper and the water. Put the lid on and let the sauce simmer gently for about 15 minutes, until the tomatoes fall apart.
+Meanwhile heat the olive oil in the tagine (or a wide pan with a lid) and gently fry the onions until soft and translucent. Add the garlic, paprika, cumin and the ras el hanout if using, and fry for a minute until fragrant. Add the tomatoes along with salt, pepper and the water. Put the lid on and let the sauce simmer gently for about 15 minutes, until the tomatoes fall apart.
 
 Place the meatballs in the sauce with enough space between them and simmer for another 15 to 20 minutes with the lid on. Raw meatballs need more like 25 minutes.
 
