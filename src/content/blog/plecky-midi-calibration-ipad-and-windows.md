@@ -158,7 +158,7 @@ xcrun devicectl device process launch --console --device <udid> nl.formatics.ple
 
 With `--console` you see stdout, and the first line that matters is `Initialize godot-rust (...)`: the Rust extension runs on iOS. Careful, ending the console capture kills the app.
 
-When I got a second iPad I also had to change the bundle id: the old `com.acidjunk.plecky` was taken by my personal team, so it's `nl.formatics.plecky` now.
+While testing on another device I also had to change the bundle id: the old `com.acidjunk.plecky` was taken by my personal team, so it's `nl.formatics.plecky` now.
 
 ### The empty level list
 

@@ -45,10 +45,10 @@ Notes for future me:
 
 ### The first real test
 
-I tested it the same evening: It worked on the first go! Well, almost:
+I tested it the same evening, and it worked on the first go! Well, almost:
 
 1. The **iPad had no sound**. Godot's default iOS audio session category is Ambient, which respects the silent switch. Set `audio/general/ios/session_category` to **Playback**.
-2. The Orther device said the iPad had a **"different version"**. The level hash included the sizes of the WAV files, and an exported build doesn't have the source WAVs. So no iPad could ever match a Mac. The hash now covers only the level and chart files.
+2. The other device said the iPad had a **"different version"**. The level hash included the sizes of the WAV files, and an exported build doesn't have the source WAVs. So an exported build could never match one running from source. The hash now covers only the level and chart files.
 
 So some tweaking was needed.
 

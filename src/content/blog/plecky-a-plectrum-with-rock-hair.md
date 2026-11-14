@@ -61,7 +61,7 @@ Some findings from the investigation that drove this:
 - I wanted to rig Plecky in Rive. There's no solid Rive runtime for Godot with iOS support yet, so the character is rigged in Godot itself.
 - Levels are drawn in [LDtk](https://ldtk.io/), loaded by our own small runtime loader. Nice side effect: edit the level in LDtk and it reloads while the music keeps playing.
 
-The first spike (milestone 0) measured all of it on my Mac mini: song position jitter of 0.002 ms per frame, zero backwards steps, zero resyncs even through a one second stall, and the game starts in about 300 ms. Good enough for me!
+The first spike (milestone 0) measured all of it on my dev machine: song position jitter of 0.002 ms per frame, zero backwards steps, zero resyncs even through a one second stall, and the game starts in about 300 ms. Good enough for me!
 
 ## The level structure
 
@@ -180,4 +180,4 @@ scripts/run.sh --settings=shot --gallery --seconds=5 --frames=/tmp/frames:12:40,
 
 `--settings=shot` uses a separate settings file, so your own save stays untouched.
 
-Next week: MIDI, a calibration screen, a stack of new levels and getting this thing on my iPad. See [part 2](/plecky-midi-calibration-ipad-and-windows/).
+Next week: MIDI, a calibration screen, a stack of new levels and getting this thing on an iPad. See [part 2](/plecky-midi-calibration-ipad-and-windows/).
