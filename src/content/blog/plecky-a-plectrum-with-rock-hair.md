@@ -14,7 +14,7 @@ I have wanted to make a music game for ages. I play bass, I write rock and metal
 
 ![All Plecky avatars in the in-game gallery](/images/posts/plecky-a-plectrum-with-rock-hair/gallery.png)
 
-Full disclosure: I am the composer, director and play tester here. The coding is done by Claude Code, while I bang on the bass and complain about the jump height. More on how that works below.
+Full disclosure: I am the composer, director and play tester here. The coding is done by Claude Code, while I bang on the bass and complain about the jump height. And it's a family project: the kids help out too, with ideas, avatar designs and a lot of (very honest) play testing. More on how that works below.
 
 ## The story
 
