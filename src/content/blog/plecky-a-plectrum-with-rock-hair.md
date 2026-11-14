@@ -10,7 +10,7 @@ status: 'published'
 
 *This is part 1 of a series. Part 2: [MIDI, calibration, iPad and Windows](/plecky-midi-calibration-ipad-and-windows/). Part 3: [LAN party, stars and Android](/plecky-lan-party-stars-and-android/).*
 
-I have wanted to make a music game for ages. I play bass, I write rock and metal riffs that mostly end up in a folder called "submissions", and I love two games in particular: [140](https://store.steampowered.com/app/242820/140/), the tiny platformer where everything moves on the beat, and the music levels in Rayman Legends. So this weekend I finally started. Meet **Plecky**: a bass plectrum with rock hair and fists, who wants to become the fastest plectrum of all time.
+I have wanted to make a music game for ages. I play bass, I write rock and metal riffs that mostly end up in a folder called "submissions", and I love two games in particular, from a music point of view: [140](https://store.steampowered.com/app/242820/140/), the tiny platformer where everything moves on the beat, and the music levels in Rayman Legends. So this weekend I finally started working on my own musical game engine. Meet **Plecky**: a bass plectrum with rock hair and fists, who wants to become the fastest plectrum of all time.
 
 ![All Plecky avatars in the in-game gallery](/images/posts/plecky-a-plectrum-with-rock-hair/gallery.png)
 
@@ -138,7 +138,7 @@ And as plain SVGs, the way the generator writes them:
 
 (Yes, the genre ids in the code are `trash` and `raggea`. That's my spelling and the code kept it. Respect.)
 
-The last one, **Vigo**, I drew myself. The generator also writes a `template.svg` with the ten named layers (body, hair, eyes, hands, feet...) and guides for the pivots. Draw over it in any vector tool, save it as `custom/<genre>-<name>.svg`, run the script and your drawing is in the game, animated like the rest.
+The last one, **Vigo**, was made by Vigo, co-producer of this game. The generator also writes a `template.svg` with the ten named layers (body, hair, eyes, hands, feet...) and guides for the pivots. Draw over it in any vector tool, save it as `custom/<genre>-<name>.svg`, run the script and your drawing is in the game, animated like the rest.
 
 ### The rig: no animation files at all
 

@@ -83,7 +83,7 @@ Velocity above 100 becomes an accent, two steps or longer becomes a hold, all qu
 
 ![The in-game chart editor](/images/posts/plecky-midi-calibration-ipad-and-windows/editor.png)
 
-This is my favorite part so far. I charted First Strum, Garage Groove, Open Mic and Soundcheck myself in the editor, on the couch, with a bass on my lap. SHIFT+DEL clears everything, because sometimes you just start over.
+Only on keyboard for now. You can record it real-time or insert it in a step-time fashion.
 
 ## More levels, more music
 

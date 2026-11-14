@@ -10,7 +10,7 @@ status: 'published'
 
 *Part 3 of the Plecky series. Part 1: [a plectrum with rock hair](/plecky-a-plectrum-with-rock-hair/). Part 2: [MIDI, calibration, iPad and Windows](/plecky-midi-calibration-ipad-and-windows/).*
 
-Week three of Plecky. Two iPads in the house and a MacBook on the table means only one thing: we want to play together. So this week Plecky got LAN play, a result screen with stars that bounce in, four new crazy levels, my 185 BPM metal takes and a first go at Android.
+Week three of Plecky. Two kids in the house means only one thing: we want to play together. So this week Plecky got LAN play, a result screen with stars that bounce in, four new crazy levels, my 185 BPM metal takes and a first go at Android.
 
 ## LAN play: the band on one Wi-Fi
 
@@ -45,14 +45,16 @@ Notes for future me:
 
 ### The first real test
 
-I tested it the same evening: MacBook hosting, iPad joining. It worked on the first go! Well, almost:
+I tested it the same evening: It worked on the first go! Well, almost:
 
 1. The **iPad had no sound**. Godot's default iOS audio session category is Ambient, which respects the silent switch. Set `audio/general/ios/session_category` to **Playback**.
-2. The MacBook said the iPad had a **"different version"**. The level hash included the sizes of the WAV files, and an exported build doesn't have the source WAVs. So no iPad could ever match a Mac. The hash now covers only the level and chart files.
+2. The Orther device said the iPad had a **"different version"**. The level hash included the sizes of the WAV files, and an exported build doesn't have the source WAVs. So no iPad could ever match a Mac. The hash now covers only the level and chart files.
+
+So some tweaking was needed.
 
 ## Fancy dialogs: stars!
 
-I complained that nobody ever reaches 100% on a rhythm level. The best I had seen was 75%. Turns out the percentage was score divided by max score, and max score meant every single note inside the 25 ms perfect window. Not humane.
+After playing it a lot people complained that nobody ever reaches 100% on a rhythm level. The best I had seen was 75%. Turns out the percentage was score divided by max score, and max score meant every single note inside the 25 ms perfect window. Not humane.
 
 Now the percentage is simply **the share of notes you hit**. Hit every note and it's 100%, the score still rewards tight timing. And at the end a card drops in with one to three stars (60, 80 and 95%) in the Angry Birds style: they pop in one by one with a bounce, sparks and a rising chime, the score counts up and there's a NEW BEST tag.
 
