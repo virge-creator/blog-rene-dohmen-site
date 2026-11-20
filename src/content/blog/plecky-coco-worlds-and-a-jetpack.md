@@ -10,15 +10,15 @@ status: 'published'
 
 *Part 4 of the Plecky series. Part 1: [a plectrum with rock hair](/plecky-a-plectrum-with-rock-hair/). Part 2: [MIDI, calibration, iPad and Windows](/plecky-midi-calibration-ipad-and-windows/). Part 3: [LAN party, stars and Android](/plecky-lan-party-stars-and-android/).*
 
-By now Plecky has a rhythm of its own. Every week a whole batch of amendments and bug fixes comes out of it. Last weekend alone was 30 commits: a dog, a glitter guitar, a jetpack, fireworks, seven new levels and a menu with worlds. Writing the code is no longer the slow part. **Testing it is.** And that's where the kids come in.
+Every week a whole bunch of amendments and bug fixes comes out of Plecky. Last weekend alone: 30 commits. A dog, a glitter guitar, a jetpack, fireworks, seven new levels and a menu with worlds. The code isn't the bottleneck anymore, testing is. So the kids and I have work to do.
 
 ![Plecky's new title screen](/images/posts/plecky-coco-worlds-and-a-jetpack/title.png)
 
-## The bot tests everything. Except the fun.
+## What the bot can't test
 
-Since part 1 there's a bot that plays every level, and a regression suite that runs it all headless: does the level load, can it be finished, does the music stay on the beat, does Coco stay on screen, does LAN still sync. Every new level has to pass before it's committed. The five new levels from this week all passed on the first try.
+Since part 1 there's a bot that plays every level, and a regression suite that runs it all headless: does the level load, can it be finished, does the music stay on the beat, does Coco stay on screen, does LAN still sync. No new level goes in without passing.
 
-That's great, and it catches a lot. But "the bot can finish it" is not the same as "this is a good level". The bot doesn't laugh, doesn't get frustrated, doesn't hold the iPad the wrong way and doesn't notice that something looks off. It will happily finish a level that's boring, unfair, or ugly. To make levels that are *really good*, you need people playing them. Preferably small people with very strong opinions.
+It catches a lot. But a level the bot can finish is not automatically a good level. The bot also happily finishes a boring one. To make levels that are "really good" you still need a lot of human input. Kids are perfect for that: they tell you straight away when something sucks.
 
 Some things from the last week that no test would ever have found:
 
@@ -31,7 +31,7 @@ Some things from the last week that no test would ever have found:
 - **The placeholder music raced** at the fast tempos once the lead came in. Now it calms down above 130 BPM.
 - **The HUD sat over the play area** on the iPad's 4:3 screen.
 
-None of these are hard to fix. They're just impossible to see without playing it, on the actual device, with someone next to you saying "that's weird".
+All small fixes. But you only find them by playing on the real device.
 
 ## Builds straight to the iPad and iPhone
 
@@ -45,13 +45,13 @@ scripts/asc.py testflight         # newest build to the internal group "Band", w
 
 `asc.py` talks to the App Store Connect API (Python standard library only, the JWT is signed with the system openssl). The group is called "Band", of course. A few minutes after the upload, the iPads and the iPhone show "new build available", over the air. Tap update, play, complain, repeat. No cables, no Xcode, no "can I borrow your iPad for a second".
 
-Honestly, that loop **rocks**. It turns testing from a chore into something that just happens on the couch. And the same script can do the store listing, the screenshots, the privacy form and the submission later on. The only thing the API can't do is create the app record, that's one click on the website.
+Wireless pushed builds: that **rocks**! The same script can also do the store listing, the screenshots, the privacy form and the submission later on. The only thing the API can't do is create the app record, that's one click on the website.
 
 Android runs too now (the NDK finally got installed, and Plecky starts on the emulator), but it doesn't have this nice over-the-air loop yet.
 
 ## The test list for this week
 
-So here's what the kids and I need to play this week. Everything below is built, passes the regression, and needs human eyes.
+This is what the kids and I have to play this week. It's all built and the bot is happy with it, now we need to see if it's any fun.
 
 ### Coco: is he actually fun?
 
@@ -80,7 +80,7 @@ To test:
 
 ![The glitter guitar high above Medley](/images/posts/plecky-coco-worlds-and-a-jetpack/guitar.png)
 
-A golden guitar hidden in some levels, 1000 points and a riff when you grab it. In **Medley** it needs the highest jump in the game: hop, hop onto Coco, and the third jump of the **jump chain** from his back (three quick jumps in a row go higher than two). Measured, it works with 12 px to spare. The question is whether a kid will ever figure that out. The bot never tries.
+A golden guitar hidden in some levels, 1000 points and a riff when you grab it. In **Medley** it needs the highest jump in the game: hop, hop onto Coco, and the third jump of the **jump chain** from his back (three quick jumps in a row go higher than two). On paper it works, with 12 px to spare. Will a kid ever figure that out? No idea.
 
 ### The jetpack: fun or chaos?
 
@@ -108,7 +108,7 @@ Platform levels now end with the same star card as the rhythm levels, with firew
 | Necro | 230 | catapults and kill zones |
 | Circle Pit | 180 | five trampolines, a catapult, the guitar over a pad |
 
-The bot finishes all of them, but the bot has perfect reflexes. At 230 BPM I'm not sure a human can. That's exactly what we need to find out. Behind every platform level there are now trippy **parallax backgrounds** as well, which get crazier the further you get. Too crazy is a real option.
+The bot finishes all of them, but at 230 BPM I'm not sure a human can. We'll see. Behind every platform level there are now trippy **parallax backgrounds** too, which get crazier the further you get. Maybe a bit too crazy.
 
 ### Worlds and the tutorial
 
@@ -135,8 +135,8 @@ The second tutorial level (Metal) now shows every element once, each announced b
 
 To test:
 
-- Do the hints make sense to someone who has **never played** it? I wrote them, so I'm the worst person to judge.
-- Are the ticket gates too strict? Getting stuck in a world because you're two tickets short is no fun.
+- Do the hints make sense to someone who has **never played** it? I wrote them, so I can't tell.
+- Are the ticket gates too strict? Stuck because you're two tickets short is no fun.
 - Is the menu easy on touch? It also works with keyboard, gamepad and mouse, the footer shows the controls for whatever you used last.
 
 ## Where we are after four weeks
@@ -145,6 +145,6 @@ To test:
 - a dog, a glitter guitar, a jetpack and fireworks
 - macOS, Windows, iPad, iPhone and Android, with TestFlight builds over the air
 - LAN play for up to eight
-- a bot that plays every level, and a family that plays them for real
+- a bot that plays every level, and the kids as play testers
 
-The code keeps coming, every week. What makes the difference now is the couch: playing it, laughing about it, and saying "that's weird". Then the next build lands on the iPad and we do it again.
+Next week: the results of the test list, and hopefully some real music for the new worlds. Time to grab the bass!
