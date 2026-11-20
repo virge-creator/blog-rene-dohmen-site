@@ -8,7 +8,7 @@ thumbnail: '/images/posts/plecky-lan-party-stars-and-android/result.png'
 status: 'published'
 ---
 
-*Part 3 of the Plecky series. Part 1: [a plectrum with rock hair](/plecky-a-plectrum-with-rock-hair/). Part 2: [MIDI, calibration, iPad and Windows](/plecky-midi-calibration-ipad-and-windows/).*
+*Part 3 of the Plecky series. Part 1: [a plectrum with rock hair](/plecky-a-plectrum-with-rock-hair/). Part 2: [MIDI, calibration, iPad and Windows](/plecky-midi-calibration-ipad-and-windows/). Part 4: [Coco, worlds and a jetpack](/plecky-coco-worlds-and-a-jetpack/).*
 
 Week three of Plecky. Two kids in the house means only one thing: we want to play together. So this week Plecky got LAN play, a result screen with stars that bounce in, four new crazy levels, my 185 BPM metal takes and a first go at Android.
 

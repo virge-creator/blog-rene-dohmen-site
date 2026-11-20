@@ -8,7 +8,7 @@ thumbnail: '/images/posts/plecky-midi-calibration-ipad-and-windows/highway.png'
 status: 'published'
 ---
 
-*Part 2 of the Plecky series. Part 1: [a plectrum with rock hair](/plecky-a-plectrum-with-rock-hair/). Part 3: [LAN party, stars and Android](/plecky-lan-party-stars-and-android/).*
+*Part 2 of the Plecky series. Part 1: [a plectrum with rock hair](/plecky-a-plectrum-with-rock-hair/). Part 3: [LAN party, stars and Android](/plecky-lan-party-stars-and-android/). Part 4: [Coco, worlds and a jetpack](/plecky-coco-worlds-and-a-jetpack/).*
 
 Week two of Plecky, my bass plectrum rhythm platformer. Last week was all about the story, the engine choice and dressing up Plecky. This week the game learned to listen: to a calibration tap, to my MIDI keyboard and to a finger on an iPad. And it runs on Windows now, without me owning a Windows machine.
 

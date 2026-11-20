@@ -8,7 +8,7 @@ thumbnail: '/images/posts/plecky-a-plectrum-with-rock-hair/gallery.png'
 status: 'published'
 ---
 
-*This is part 1 of a series. Part 2: [MIDI, calibration, iPad and Windows](/plecky-midi-calibration-ipad-and-windows/). Part 3: [LAN party, stars and Android](/plecky-lan-party-stars-and-android/).*
+*This is part 1 of a series. Part 2: [MIDI, calibration, iPad and Windows](/plecky-midi-calibration-ipad-and-windows/). Part 3: [LAN party, stars and Android](/plecky-lan-party-stars-and-android/). Part 4: [Coco, worlds and a jetpack](/plecky-coco-worlds-and-a-jetpack/).*
 
 I have wanted to make a music game for ages. I play bass, I write rock and metal riffs that mostly end up in a folder called "submissions", and I love two games in particular, from a music point of view: [140](https://store.steampowered.com/app/242820/140/), the tiny platformer where everything moves on the beat, and the music levels in Rayman Legends. So this weekend I finally started working on my own musical game engine. Meet **Plecky**: a bass plectrum with rock hair and fists, who wants to become the fastest plectrum of all time.
 
